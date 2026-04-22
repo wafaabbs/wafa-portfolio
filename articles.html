@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Articles — Wafa Abbas</title>
+  <meta name="description" content="Finance, accounting, and taxation articles by Wafa Abbas." />
+
+  <!-- Favicon -->
+  <link rel="icon" href="/assets/img/icons/favicon.ico" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/tokens.css" />
+  <link rel="stylesheet" href="/assets/css/base.css" />
+  <link rel="stylesheet" href="/assets/css/components/navbar.css" />
+  <link rel="stylesheet" href="/assets/css/components/footer.css" />
+  <link rel="stylesheet" href="/assets/css/components/card.css" />
+  <link rel="stylesheet" href="/assets/css/components/badge.css" />
+  <link rel="stylesheet" href="/assets/css/components/button.css" />
+  <link rel="stylesheet" href="/assets/css/components/pagination.css" />
+  <link rel="stylesheet" href="/assets/css/pages/articles.css" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+
+  <!-- ── Navbar ────────────────────────────────────────────── -->
+  <nav class="navbar" id="navbar">
+    <div class="container navbar__inner">
+
+      <!-- Logo -->
+      <a href="/index.html" class="navbar__logo">
+        <span class="navbar__logo-icon">W</span>
+        <span class="navbar__logo-text">Wafa<span>Abbas</span></span>
+      </a>
+
+      <!-- Nav Links -->
+      <ul class="navbar__links" id="nav-links">
+        <li><a href="/index.html"    class="nav-link" data-nav-link="home"
+            data-en="Home"     data-id="Beranda">Home</a></li>
+        <li><a href="/about.html"    class="nav-link" data-nav-link="about"
+            data-en="About"    data-id="Tentang">About</a></li>
+        <li><a href="/articles.html" class="nav-link active" data-nav-link="articles"
+            data-en="Articles" data-id="Artikel">Articles</a></li>
+        <li><a href="/opinions.html" class="nav-link" data-nav-link="opinions"
+            data-en="Opinions" data-id="Opini">Opinions</a></li>
+        <li><a href="/news.html"     class="nav-link" data-nav-link="news"
+            data-en="News"     data-id="Berita">News</a></li>
+      </ul>
+
+      <!-- Right Controls -->
+      <div class="navbar__controls">
+        <a href="/search.html" class="navbar__search-btn" aria-label="Search">
+          <i class="fa fa-search"></i>
+        </a>
+        <div class="lang-switch">
+          <button class="lang-btn active" data-lang-btn="en">EN</button>
+          <span class="lang-switch__divider">|</span>
+          <button class="lang-btn" data-lang-btn="id">ID</button>
+        </div>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+      <ul class="mobile-menu__links">
+        <li><a href="/index.html"    class="nav-link" data-nav-link="home"
+            data-en="Home"     data-id="Beranda">Home</a></li>
+        <li><a href="/about.html"    class="nav-link" data-nav-link="about"
+            data-en="About"    data-id="Tentang">About</a></li>
+        <li><a href="/articles.html" class="nav-link active" data-nav-link="articles"
+            data-en="Articles" data-id="Artikel">Articles</a></li>
+        <li><a href="/opinions.html" class="nav-link" data-nav-link="opinions"
+            data-en="Opinions" data-id="Opini">Opinions</a></li>
+        <li><a href="/news.html"     class="nav-link" data-nav-link="news"
+            data-en="News"     data-id="Berita">News</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ── Page Header ───────────────────────────────────────── -->
+  <section class="page-header">
+    <div class="page-header__bg"></div>
+    <div class="container page-header__inner">
+      <div class="page-header__label">
+        <i class="fa fa-newspaper"></i>
+        <span data-en="Articles" data-id="Artikel">Articles</span>
+      </div>
+      <h1 class="page-header__title">
+        <span data-en="Insights &" data-id="Wawasan &">Insights &</span>
+        <span class="accent" data-en="Analysis" data-id="Analisis">Analysis</span>
+      </h1>
+      <p class="page-header__desc"
+        data-en="In-depth articles on finance, accounting, taxation, and business strategy."
+        data-id="Artikel mendalam tentang keuangan, akuntansi, perpajakan, dan strategi bisnis.">
+        In-depth articles on finance, accounting, taxation, and business strategy.
+      </p>
+    </div>
+  </section>
+
+  <!-- ── Main Content ──────────────────────────────────────── -->
+  <main class="section">
+    <div class="container">
+
+      <!-- Filter Bar -->
+      <div class="filter-bar" id="filter-bar">
+        <span class="filter-bar__label"
+          data-en="Filter:" data-id="Filter:">Filter:</span>
+        <!-- JS renders filter buttons here -->
+      </div>
+
+      <!-- Sort Bar -->
+      <div class="sort-bar" id="sort-bar">
+        <!-- JS renders sort options here -->
+      </div>
+
+      <!-- Articles Grid -->
+      <div class="articles-grid" id="articles-grid">
+        <!-- JS renders cards here -->
+      </div>
+
+      <!-- Pagination -->
+      <div class="pagination-wrap" id="pagination-wrap">
+        <!-- JS renders pagination here -->
+      </div>
+
+    </div>
+  </main>
+
+  <!-- ── Footer ────────────────────────────────────────────── -->
+  <footer class="footer" id="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="/index.html" class="footer__logo">
+          <span class="footer__logo-icon">W</span>
+          <span>Wafa<span>Abbas</span></span>
+        </a>
+        <p class="footer__tagline"
+          data-en="Finance, Tax & Accounting Specialist"
+          data-id="Spesialis Keuangan, Pajak & Akuntansi">
+          Finance, Tax & Accounting Specialist
+        </p>
+      </div>
+
+      <div class="footer__links">
+        <a href="/index.html"    data-en="Home"     data-id="Beranda">Home</a>
+        <a href="/about.html"    data-en="About"    data-id="Tentang">About</a>
+        <a href="/articles.html" data-en="Articles" data-id="Artikel">Articles</a>
+        <a href="/opinions.html" data-en="Opinions" data-id="Opini">Opinions</a>
+        <a href="/news.html"     data-en="News"     data-id="Berita">News</a>
+      </div>
+
+      <div class="footer__socials" id="footer-socials">
+        <a href="mailto:alfaqihabbas@gmail.com" aria-label="Email">
+          <i class="fa fa-envelope"></i>
+        </a>
+        <a href="https://linkedin.com/in/wafaabbs/" target="_blank" aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="https://wa.me/6282330610780" target="_blank" aria-label="WhatsApp">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+      </div>
+
+      <p class="footer__copy">
+        &copy; <span class="footer-year"></span> Wafa Abbas.
+        <span data-en="All rights reserved."
+              data-id="Hak cipta dilindungi.">All rights reserved.</span>
+      </p>
+    </div>
+  </footer>
+
+  <!-- ── Scripts ───────────────────────────────────────────── -->
+  <script src="/assets/js/core/config.js"></script>
+  <script src="/assets/js/core/utils.js"></script>
+  <script src="/assets/js/core/fetch.js"></script>
+  <script src="/assets/js/core/render.js"></script>
+  <script src="/assets/js/core/router.js"></script>
+  <script src="/assets/js/components/navbar.js"></script>
+  <script src="/assets/js/components/footer.js"></script>
+  <script src="/assets/js/components/card.js"></script>
+  <script src="/assets/js/pages/articles.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      Navbar.init();
+      Footer.init();
+      ArticlesPage.init();
+    });
+  </script>
+
+</body>
+</html>

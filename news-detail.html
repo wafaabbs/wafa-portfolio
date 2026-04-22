@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>News — Wafa Abbas</title>
+  <meta name="description" content="Read full news by Wafa Abbas." />
+
+  <!-- Favicon -->
+  <link rel="icon" href="/assets/img/icons/favicon.ico" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/tokens.css" />
+  <link rel="stylesheet" href="/assets/css/base.css" />
+  <link rel="stylesheet" href="/assets/css/components/navbar.css" />
+  <link rel="stylesheet" href="/assets/css/components/footer.css" />
+  <link rel="stylesheet" href="/assets/css/components/card.css" />
+  <link rel="stylesheet" href="/assets/css/components/badge.css" />
+  <link rel="stylesheet" href="/assets/css/components/button.css" />
+  <link rel="stylesheet" href="/assets/css/pages/detail.css" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- JS -->
+  <script defer src="/assets/js/core/config.js"></script>
+  <script defer src="/assets/js/core/utils.js"></script>
+  <script defer src="/assets/js/core/fetch.js"></script>
+  <script defer src="/assets/js/core/render.js"></script>
+  <script defer src="/assets/js/core/router.js"></script>
+  <script defer src="/assets/js/components/navbar.js"></script>
+  <script defer src="/assets/js/components/footer.js"></script>
+  <script defer src="/assets/js/pages/detail.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      Navbar.init();
+      Footer.init();
+      DetailPage.init('news');
+    });
+  </script>
+</head>
+
+<body>
+
+  <!-- ── Navbar ───────────────────────────────────────────── -->
+  <header id="navbar" class="navbar" role="banner">
+    <div class="container navbar__inner">
+
+      <!-- Logo -->
+      <a href="/index.html" class="navbar__logo" aria-label="Wafa Abbas Home">
+        <span class="navbar__logo-icon">WA</span>
+        <span class="navbar__logo-text">Wafa Abbas</span>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="navbar__nav" aria-label="Main navigation">
+        <a href="/index.html"    class="nav-link" data-nav-link="home"
+          data-en="Home"     data-id="Beranda">Home</a>
+        <a href="/about.html"   class="nav-link" data-nav-link="about"
+          data-en="About"    data-id="Tentang">About</a>
+        <a href="/articles.html" class="nav-link" data-nav-link="articles"
+          data-en="Articles" data-id="Artikel">Articles</a>
+        <a href="/opinions.html" class="nav-link" data-nav-link="opinions"
+          data-en="Opinions" data-id="Opini">Opinions</a>
+        <a href="/news.html"    class="nav-link" data-nav-link="news"
+          data-en="News"     data-id="Berita">News</a>
+      </nav>
+
+      <!-- Actions -->
+      <div class="navbar__actions">
+        <a href="/search.html" class="navbar__search-btn" aria-label="Search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </a>
+        <div class="lang-switch" role="group" aria-label="Language switch">
+          <button class="lang-btn active" data-lang="en">EN</button>
+          <span class="lang-switch__divider">|</span>
+          <button class="lang-btn" data-lang="id">ID</button>
+        </div>
+        <a href="/assets/files/wafa-cv.pdf"
+          class="btn btn--primary btn--sm"
+          download
+          data-en="Download CV"
+          data-id="Unduh CV">
+          <i class="fa-solid fa-download"></i>
+          Download CV
+        </a>
+      </div>
+
+      <!-- Hamburger -->
+      <button id="hamburger" class="navbar__hamburger"
+        aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="mobile-menu" aria-hidden="true">
+      <nav class="mobile-menu__nav">
+        <a href="/index.html"    class="mobile-nav-link" data-nav-link="home"
+          data-en="Home"     data-id="Beranda">Home</a>
+        <a href="/about.html"   class="mobile-nav-link" data-nav-link="about"
+          data-en="About"    data-id="Tentang">About</a>
+        <a href="/articles.html" class="mobile-nav-link" data-nav-link="articles"
+          data-en="Articles" data-id="Artikel">Articles</a>
+        <a href="/opinions.html" class="mobile-nav-link" data-nav-link="opinions"
+          data-en="Opinions" data-id="Opini">Opinions</a>
+        <a href="/news.html"    class="mobile-nav-link" data-nav-link="news"
+          data-en="News"     data-id="Berita">News</a>
+      </nav>
+      <div class="mobile-menu__actions">
+        <div class="lang-switch" role="group">
+          <button class="lang-btn active" data-lang="en">EN</button>
+          <span class="lang-switch__divider">|</span>
+          <button class="lang-btn" data-lang="id">ID</button>
+        </div>
+        <a href="/assets/files/wafa-cv.pdf"
+          class="btn btn--primary btn--sm"
+          download>
+          <i class="fa-solid fa-download"></i>
+          Download CV
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ── Main ─────────────────────────────────────────────── -->
+  <main id="main-content">
+
+    <!-- Detail Hero — populated by JS -->
+    <section id="detail-hero" class="detail-hero">
+      <div class="container">
+        <div id="detail-hero-content" class="detail-hero__content">
+          <!-- JS renders: breadcrumb, badge, title, meta -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Detail Body -->
+    <section class="detail-body">
+      <div class="container">
+        <div class="detail-body__inner">
+
+          <!-- Article Content -->
+          <article id="detail-content" class="detail-content prose">
+            <!-- JS renders: featured image + markdown content -->
+          </article>
+
+          <!-- Share Bar -->
+          <div id="detail-share" class="detail-share">
+            <span class="detail-share__label"
+              data-en="Share this:" data-id="Bagikan:">Share this:</span>
+            <div class="detail-share__btns">
+              <button class="share-btn share-btn--twitter"
+                aria-label="Share on Twitter">
+                <i class="fa-brands fa-x-twitter"></i>
+              </button>
+              <button class="share-btn share-btn--linkedin"
+                aria-label="Share on LinkedIn">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </button>
+              <button class="share-btn share-btn--whatsapp"
+                aria-label="Share on WhatsApp">
+                <i class="fa-brands fa-whatsapp"></i>
+              </button>
+              <button class="share-btn share-btn--copy"
+                aria-label="Copy link">
+                <i class="fa-solid fa-link"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Author Card -->
+          <div id="detail-author" class="detail-author">
+            <!-- JS renders author info -->
+          </div>
+
+        </div>
+
+        <!-- Sidebar -->
+        <aside id="detail-sidebar" class="detail-sidebar">
+
+          <!-- Table of Contents -->
+          <div class="sidebar-widget">
+            <h3 class="sidebar-widget__title"
+              data-en="Table of Contents"
+              data-id="Daftar Isi">Table of Contents</h3>
+            <div id="detail-toc" class="detail-toc">
+              <!-- JS renders TOC -->
+            </div>
+          </div>
+
+          <!-- Related Posts -->
+          <div class="sidebar-widget">
+            <h3 class="sidebar-widget__title"
+              data-en="Related News"
+              data-id="Berita Terkait">Related News</h3>
+            <div id="detail-related" class="detail-related">
+              <!-- JS renders related -->
+            </div>
+          </div>
+
+        </aside>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── Footer ───────────────────────────────────────────── -->
+  <footer id="footer" class="footer" role="contentinfo">
+    <div class="container footer__inner">
+
+      <!-- Brand -->
+      <div class="footer__brand">
+        <a href="/index.html" class="footer__logo">
+          <span class="footer__logo-icon">WA</span>
+          <span class="footer__logo-text">Wafa Abbas</span>
+        </a>
+        <p class="footer__tagline"
+          data-en="Finance, Tax & Accounting Specialist"
+          data-id="Spesialis Keuangan, Pajak & Akuntansi">
+          Finance, Tax & Accounting Specialist
+        </p>
+        <div class="footer__socials">
+          <a href="https://linkedin.com/in/wafaabbs/"
+            target="_blank" rel="noopener"
+            class="footer__social-link" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a href="https://wa.me/6282330610780"
+            target="_blank" rel="noopener"
+            class="footer__social-link" aria-label="WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+          <a href="mailto:alfaqihabbas@gmail.com"
+            class="footer__social-link" aria-label="Email">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Nav Links -->
+      <div class="footer__nav">
+        <h4 class="footer__nav-title"
+          data-en="Navigation" data-id="Navigasi">Navigation</h4>
+        <ul class="footer__nav-list">
+          <li><a href="/index.html"
+            data-en="Home" data-id="Beranda">Home</a></li>
+          <li><a href="/about.html"
+            data-en="About" data-id="Tentang">About</a></li>
+          <li><a href="/articles.html"
+            data-en="Articles" data-id="Artikel">Articles</a></li>
+          <li><a href="/opinions.html"
+            data-en="Opinions" data-id="Opini">Opinions</a></li>
+          <li><a href="/news.html"
+            data-en="News" data-id="Berita">News</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div class="footer__contact">
+        <h4 class="footer__nav-title"
+          data-en="Contact" data-id="Kontak">Contact</h4>
+        <ul class="footer__contact-list">
+          <li>
+            <i class="fa-solid fa-envelope"></i>
+            <a href="mailto:alfaqihabbas@gmail.com">
+              alfaqihabbas@gmail.com
+            </a>
+          </li>
+          <li>
+            <i class="fa-brands fa-whatsapp"></i>
+            <a href="https://wa.me/6282330610780"
+              target="_blank" rel="noopener">
+              +62 823 3061 0780
+            </a>
+          </li>
+          <li>
+            <i class="fa-brands fa-linkedin-in"></i>
+            <a href="https://linkedin.com/in/wafaabbs/"
+              target="_blank" rel="noopener">
+              linkedin.com/in/wafaabbs
+            </a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Bottom Bar -->
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <p class="footer__copy">
+          &copy; <span class="footer-year"></span>
+          Wafa Abdullah Faqih Abbas.
+          <span data-en="All rights reserved."
+                data-id="Hak cipta dilindungi.">
+            All rights reserved.
+          </span>
+        </p>
+        <a href="/search.html" class="footer__search-link">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <span data-en="Search" data-id="Cari">Search</span>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

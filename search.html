@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Search — Wafa Abbas</title>
+  <meta name="description" content="Search articles, opinions, and news by Wafa Abbas." />
+
+  <!-- Favicon -->
+  <link rel="icon" href="/assets/img/icons/favicon.ico" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/tokens.css" />
+  <link rel="stylesheet" href="/assets/css/base.css" />
+  <link rel="stylesheet" href="/assets/css/components/navbar.css" />
+  <link rel="stylesheet" href="/assets/css/components/footer.css" />
+  <link rel="stylesheet" href="/assets/css/components/card.css" />
+  <link rel="stylesheet" href="/assets/css/components/badge.css" />
+  <link rel="stylesheet" href="/assets/css/components/button.css" />
+  <link rel="stylesheet" href="/assets/css/components/pagination.css" />
+  <link rel="stylesheet" href="/assets/css/pages/search.css" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+
+  <!-- ── Navbar ─────────────────────────────────────────────── -->
+  <nav class="navbar" id="navbar">
+    <div class="container navbar__inner">
+
+      <!-- Logo -->
+      <a href="/index.html" class="navbar__logo">
+        <span class="navbar__logo-text">Wafa<span>Abbas</span></span>
+      </a>
+
+      <!-- Desktop Nav -->
+      <ul class="navbar__links" id="nav-links">
+        <li><a href="/index.html"    class="nav-link" data-nav-link="home"
+          data-en="Home" data-id="Beranda">Home</a></li>
+        <li><a href="/about.html"    class="nav-link" data-nav-link="about"
+          data-en="About" data-id="Tentang">About</a></li>
+        <li><a href="/articles.html" class="nav-link" data-nav-link="articles"
+          data-en="Articles" data-id="Artikel">Articles</a></li>
+        <li><a href="/opinions.html" class="nav-link" data-nav-link="opinions"
+          data-en="Opinions" data-id="Opini">Opinions</a></li>
+        <li><a href="/news.html"     class="nav-link" data-nav-link="news"
+          data-en="News" data-id="Berita">News</a></li>
+      </ul>
+
+      <!-- Actions -->
+      <div class="navbar__actions">
+        <button class="lang-btn" data-lang-btn="en" aria-label="English">EN</button>
+        <button class="lang-btn" data-lang-btn="id" aria-label="Indonesian">ID</button>
+        <a href="/search.html" class="navbar__search-btn" aria-label="Search">
+          <i class="fa fa-magnifying-glass"></i>
+        </a>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+      <ul class="mobile-menu__links">
+        <li><a href="/index.html"    class="nav-link" data-nav-link="home"
+          data-en="Home" data-id="Beranda">Home</a></li>
+        <li><a href="/about.html"    class="nav-link" data-nav-link="about"
+          data-en="About" data-id="Tentang">About</a></li>
+        <li><a href="/articles.html" class="nav-link" data-nav-link="articles"
+          data-en="Articles" data-id="Artikel">Articles</a></li>
+        <li><a href="/opinions.html" class="nav-link" data-nav-link="opinions"
+          data-en="Opinions" data-id="Opini">Opinions</a></li>
+        <li><a href="/news.html"     class="nav-link" data-nav-link="news"
+          data-en="News" data-id="Berita">News</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ── Search Hero ────────────────────────────────────────── -->
+  <section class="search-hero">
+    <div class="search-hero__bg"></div>
+    <div class="container search-hero__inner">
+
+      <h1 class="search-hero__title"
+        data-en="Search <span>Everything</span>"
+        data-id="Cari <span>Semua</span>">
+        Search <span>Everything</span>
+      </h1>
+
+      <p class="search-hero__sub"
+        data-en="Find articles, opinions, and news across the portfolio."
+        data-id="Temukan artikel, opini, dan berita di seluruh portofolio.">
+        Find articles, opinions, and news across the portfolio.
+      </p>
+
+      <!-- Search Box -->
+      <div class="search-box" id="search-box">
+        <i class="fa fa-magnifying-glass search-box__icon"></i>
+        <input
+          type="search"
+          id="search-input"
+          class="search-box__input"
+          placeholder="Search articles, opinions, news..."
+          autocomplete="off"
+          aria-label="Search"
+        />
+        <button class="search-box__clear" id="search-clear" aria-label="Clear">
+          <i class="fa fa-xmark"></i>
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── Main ───────────────────────────────────────────────── -->
+  <main class="main">
+    <div class="container">
+
+      <!-- Filter Tabs -->
+      <div class="search-filters" id="search-filters">
+        <button class="filter-btn filter-btn--active" data-type="all"
+          data-en="All" data-id="Semua">All</button>
+        <button class="filter-btn" data-type="articles"
+          data-en="Articles" data-id="Artikel">Articles</button>
+        <button class="filter-btn" data-type="opinions"
+          data-en="Opinions" data-id="Opini">Opinions</button>
+        <button class="filter-btn" data-type="news"
+          data-en="News" data-id="Berita">News</button>
+      </div>
+
+      <!-- Results Meta -->
+      <div class="search-meta" id="search-meta"></div>
+
+      <!-- Results Grid -->
+      <div class="cards-grid" id="search-results"></div>
+
+      <!-- Pagination -->
+      <div id="search-pagination"></div>
+
+    </div>
+  </main>
+
+  <!-- ── Footer ─────────────────────────────────────────────── -->
+  <footer class="footer" id="footer">
+    <div class="container footer__inner">
+
+      <div class="footer__brand">
+        <a href="/index.html" class="footer__logo">
+          Wafa<span>Abbas</span>
+        </a>
+        <p class="footer__tagline"
+          data-en="Finance, Tax & Accounting Specialist"
+          data-id="Spesialis Keuangan, Pajak & Akuntansi">
+          Finance, Tax & Accounting Specialist
+        </p>
+      </div>
+
+      <div class="footer__links">
+        <a href="/index.html"    data-en="Home"     data-id="Beranda">Home</a>
+        <a href="/about.html"    data-en="About"    data-id="Tentang">About</a>
+        <a href="/articles.html" data-en="Articles" data-id="Artikel">Articles</a>
+        <a href="/opinions.html" data-en="Opinions" data-id="Opini">Opinions</a>
+        <a href="/news.html"     data-en="News"     data-id="Berita">News</a>
+      </div>
+
+      <div class="footer__socials" id="footer-socials">
+        <a href="mailto:alfaqihabbas@gmail.com" aria-label="Email">
+          <i class="fa fa-envelope"></i>
+        </a>
+        <a href="https://wa.me/6282330610780" target="_blank" aria-label="WhatsApp">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <a href="https://linkedin.com/in/wafaabbs/" target="_blank" aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </div>
+
+      <p class="footer__copy">
+        &copy; <span class="footer-year"></span>
+        <span data-en="Wafa Abbas. All rights reserved."
+              data-id="Wafa Abbas. Hak cipta dilindungi.">
+          Wafa Abbas. All rights reserved.
+        </span>
+      </p>
+
+    </div>
+  </footer>
+
+  <!-- ── Scripts ────────────────────────────────────────────── -->
+  <script src="/assets/js/core/config.js"></script>
+  <script src="/assets/js/core/utils.js"></script>
+  <script src="/assets/js/core/fetch.js"></script>
+  <script src="/assets/js/core/render.js"></script>
+  <script src="/assets/js/core/router.js"></script>
+  <script src="/assets/js/components/navbar.js"></script>
+  <script src="/assets/js/components/footer.js"></script>
+  <script src="/assets/js/components/card.js"></script>
+  <script src="/assets/js/components/search.js"></script>
+  <script src="/assets/js/pages/search.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      Navbar.init();
+      Footer.init();
+      Router.highlightNav();
+      SearchPage.init();
+    });
+  </script>
+
+</body>
+</html>

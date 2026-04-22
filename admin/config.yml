@@ -1,0 +1,327 @@
+backend:
+  name: github
+  repo: wafaabbs/wafa-portfolio
+  branch: main
+
+media_folder: assets/img/uploads
+public_folder: /assets/img/uploads
+
+publish_mode: editorial_workflow
+
+locale: id
+
+collections:
+
+  # ───────────────────────────
+  # 📝 ARTICLES
+  # ───────────────────────────
+  - name: articles
+    label: Articles
+    label_singular: Article
+    folder: assets/data/articles
+    create: true
+    format: frontmatter
+    slug: "{{slug}}"
+    preview_path: "article-detail.html?slug={{slug}}"
+    fields:
+
+      - name: title
+        label: Title
+        widget: object
+        fields:
+          - { label: English,    name: en, widget: string }
+          - { label: Indonesian, name: id, widget: string }
+
+      - name: excerpt
+        label: Excerpt
+        widget: object
+        fields:
+          - { label: English,    name: en, widget: text }
+          - { label: Indonesian, name: id, widget: text }
+
+      - name: category
+        label: Category
+        widget: select
+        options:
+          - { label: "Taxation",   value: "taxation"   }
+          - { label: "Accounting", value: "accounting" }
+          - { label: "Finance",    value: "finance"    }
+          - { label: "Career",     value: "career"     }
+          - { label: "Technology", value: "technology" }
+
+      - name: tags
+        label: Tags
+        widget: list
+        default: []
+        minimize_collapsed: true
+
+      - name: date
+        label: Date
+        widget: datetime
+        format: "YYYY-MM-DD"
+        date_format: "DD MMMM YYYY"
+        time_format: false
+
+      - name: image
+        label: Image
+        widget: image
+        required: false
+        default: "/assets/img/og/og-default.jpg"
+
+      - { label: Featured,  name: featured,  widget: boolean, default: false }
+      - { label: Published, name: published, widget: boolean, default: false }
+
+      - name: readTime
+        label: Read Time (minutes)
+        widget: number
+        default: 5
+        value_type: int
+        min: 1
+        max: 60
+
+      - name: body
+        label: Content
+        widget: markdown
+
+  # ───────────────────────────
+  # 💬 OPINIONS
+  # ───────────────────────────
+  - name: opinions
+    label: Opinions
+    label_singular: Opinion
+    folder: assets/data/opinions
+    create: true
+    format: frontmatter
+    slug: "{{slug}}"
+    preview_path: "opinion-detail.html?slug={{slug}}"
+    fields:
+
+      - name: title
+        label: Title
+        widget: object
+        fields:
+          - { label: English,    name: en, widget: string }
+          - { label: Indonesian, name: id, widget: string }
+
+      - name: excerpt
+        label: Excerpt
+        widget: object
+        fields:
+          - { label: English,    name: en, widget: text }
+          - { label: Indonesian, name: id, widget: text }
+
+      - name: category
+        label: Category
+        widget: select
+        options:
+          - { label: "Economy",  value: "economy"  }
+          - { label: "Policy",   value: "policy"   }
+          - { label: "Career",   value: "career"   }
+          - { label: "Social",   value: "social"   }
+          - { label: "Personal", value: "personal" }
+
+      - name: tags
+        label: Tags
+        widget: list
+        default: []
+        minimize_collapsed: true
+
+      - name: date
+        label: Date
+        widget: datetime
+        format: "YYYY-MM-DD"
+        date_format: "DD MMMM YYYY"
+        time_format: false
+
+      - name: image
+        label: Image
+        widget: image
+        required: false
+        default: "/assets/img/og/og-default.jpg"
+
+      - { label: Featured,  name: featured,  widget: boolean, default: false }
+      - { label: Published, name: published, widget: boolean, default: false }
+
+      - name: readTime
+        label: Read Time (minutes)
+        widget: number
+        default: 5
+        value_type: int
+        min: 1
+        max: 60
+
+      - name: body
+        label: Content
+        widget: markdown
+
+  # ───────────────────────────
+  # 📰 NEWS
+  # ───────────────────────────
+  - name: news
+    label: News
+    label_singular: News Item
+    folder: assets/data/news
+    create: true
+    format: frontmatter
+    slug: "{{slug}}"
+    preview_path: "news-detail.html?slug={{slug}}"
+    fields:
+
+      - name: title
+        label: Title
+        widget: object
+        fields:
+          - { label: English,    name: en, widget: string }
+          - { label: Indonesian, name: id, widget: string }
+
+      - name: excerpt
+        label: Excerpt
+        widget: object
+        fields:
+          - { label: English,    name: en, widget: text }
+          - { label: Indonesian, name: id, widget: text }
+
+      - name: category
+        label: Category
+        widget: select
+        options:
+          - { label: "Achievement", value: "achievement" }
+          - { label: "Career",      value: "career"      }
+          - { label: "Academic",    value: "academic"    }
+          - { label: "Event",       value: "event"       }
+          - { label: "Award",       value: "award"       }
+
+      - name: tags
+        label: Tags
+        widget: list
+        default: []
+        minimize_collapsed: true
+
+      - name: date
+        label: Date
+        widget: datetime
+        format: "YYYY-MM-DD"
+        date_format: "DD MMMM YYYY"
+        time_format: false
+
+      - name: image
+        label: Image
+        widget: image
+        required: false
+        default: "/assets/img/og/og-default.jpg"
+
+      - name: source
+        label: Source
+        widget: string
+        required: false
+
+      - name: sourceUrl
+        label: Source URL
+        widget: string
+        required: false
+
+      - { label: Featured,  name: featured,  widget: boolean, default: false }
+      - { label: Published, name: published, widget: boolean, default: false }
+
+      - name: readTime
+        label: Read Time (minutes)
+        widget: number
+        default: 3
+        value_type: int
+        min: 1
+        max: 60
+
+      - name: body
+        label: Content
+        widget: markdown
+
+  # ───────────────────────────
+  # ⚙️ SETTINGS
+  # ───────────────────────────
+  - name: settings
+    label: Settings
+    files:
+
+      - name: profile
+        label: Profile
+        file: assets/data/profile.json
+        format: json
+        fields:
+
+          - name: personal
+            label: Personal Info
+            widget: object
+            fields:
+              - { label: Name EN,   name: nameEn,   widget: string }
+              - { label: Name ID,   name: nameId,   widget: string }
+              - { label: Title EN,  name: titleEn,  widget: string }
+              - { label: Title ID,  name: titleId,  widget: string }
+              - { label: Bio EN,    name: bioEn,    widget: text   }
+              - { label: Bio ID,    name: bioId,    widget: text   }
+              - { label: Email,     name: email,    widget: string }
+              - { label: Phone,     name: phone,    widget: string }
+              - { label: WhatsApp,  name: whatsapp, widget: string }
+              - { label: LinkedIn,  name: linkedin, widget: string }
+              - { label: Location,  name: location, widget: string }
+              - { label: Photo,     name: photo,    widget: image  }
+              - { label: CV File,   name: cv,       widget: file   }
+
+          - name: stats
+            label: Stats
+            widget: object
+            fields:
+              - { label: Years Experience,  name: experience,     widget: number }
+              - { label: Projects Done,     name: projects,       widget: number }
+              - { label: Certifications,    name: certifications, widget: number }
+              - { label: Articles Written,  name: articles,       widget: number }
+
+          - name: skills
+            label: Skills
+            widget: list
+            fields:
+              - { label: Name EN,  name: nameEn,  widget: string }
+              - { label: Name ID,  name: nameId,  widget: string }
+              - { label: Level,    name: level,   widget: number,
+                  min: 0, max: 100, value_type: int              }
+              - { label: Category, name: category, widget: select,
+                  options:
+                    - { label: "Technical",    value: "technical"    }
+                    - { label: "Software",     value: "software"     }
+                    - { label: "Soft Skills",  value: "soft"         }
+                    - { label: "Language",     value: "language"     }
+                }
+
+          - name: experience
+            label: Experience
+            widget: list
+            fields:
+              - { label: Company,  name: company, widget: string }
+              - { label: Role EN,  name: roleEn,  widget: string }
+              - { label: Role ID,  name: roleId,  widget: string }
+              - { label: Period,   name: period,  widget: string }
+              - { label: Desc EN,  name: descEn,  widget: text   }
+              - { label: Desc ID,  name: descId,  widget: text   }
+              - { label: Logo,     name: logo,    widget: image,
+                  required: false                                }
+
+          - name: education
+            label: Education
+            widget: list
+            fields:
+              - { label: Institution, name: institution, widget: string }
+              - { label: Degree EN,   name: degreeEn,   widget: string }
+              - { label: Degree ID,   name: degreeId,   widget: string }
+              - { label: Period,      name: period,     widget: string }
+              - { label: GPA,         name: gpa,        widget: string,
+                  required: false                                       }
+
+          - name: certifications
+            label: Certifications
+            widget: list
+            fields:
+              - { label: Name EN, name: nameEn, widget: string }
+              - { label: Name ID, name: nameId, widget: string }
+              - { label: Issuer,  name: issuer, widget: string }
+              - { label: Date,    name: date,   widget: string }
+              - { label: URL,     name: url,    widget: string,
+                  required: false                              }

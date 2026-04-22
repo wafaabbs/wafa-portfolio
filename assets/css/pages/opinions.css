@@ -1,0 +1,193 @@
+/* ============================================================
+   OPINIONS PAGE — Wafa Abbas Portfolio
+   ============================================================ */
+
+/* Opinions reuses .page-header & .filter-bar from articles.css  */
+/* Only opinions-specific overrides below                         */
+
+/* ── Opinions Layout ────────────────────────────────────────── */
+.opinions-grid {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 48px;
+  align-items: start;
+  margin-bottom: 64px;
+}
+
+/* ── Opinion List (left column) ─────────────────────────────── */
+.opinion-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* ── Opinion Card Horizontal Variant ───────────────────────── */
+.card--opinion {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 24px;
+  align-items: start;
+  padding: 28px 32px;
+}
+
+.card--opinion .card__number {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--dark-border);
+  line-height: 1;
+  min-width: 48px;
+  transition: color var(--transition);
+}
+
+.card--opinion:hover .card__number {
+  color: var(--accent-soft);
+}
+
+.card--opinion .card__body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card--opinion .card__meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.card--opinion .card__title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--pure-white);
+  line-height: 1.4;
+  transition: color var(--transition);
+}
+
+.card--opinion:hover .card__title { color: var(--accent); }
+
+.card--opinion .card__excerpt {
+  font-size: 0.85rem;
+  color: var(--muted);
+  line-height: 1.75;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.card--opinion .card__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 12px;
+  border-top: 1px solid var(--dark-border);
+}
+
+.card--opinion .card__read-more {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--accent);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: gap var(--transition);
+}
+
+.card--opinion:hover .card__read-more { gap: 10px; }
+
+/* ── Sidebar (right column) ─────────────────────────────────── */
+.opinions-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  position: sticky;
+  top: calc(var(--nav-height) + 24px);
+}
+
+.sidebar-widget {
+  background: var(--dark-card);
+  border: 1px solid var(--dark-border);
+  border-radius: var(--radius);
+  padding: 24px;
+}
+
+.sidebar-widget__title {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.sidebar-widget__title::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--dark-border);
+}
+
+/* Popular Topics */
+.topic-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.topic-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 14px;
+  background: var(--dark);
+  border: 1px solid var(--dark-border);
+  border-radius: var(--radius-sm);
+  font-size: 0.82rem;
+  color: var(--light-muted);
+  cursor: pointer;
+  transition: all var(--transition);
+  text-decoration: none;
+}
+
+.topic-item:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.topic-item__count {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--muted);
+  background: var(--mid);
+  padding: 2px 8px;
+  border-radius: 999px;
+}
+
+/* ── Responsive ─────────────────────────────────────────────── */
+@media (max-width: 900px) {
+  .opinions-grid {
+    grid-template-columns: 1fr;
+  }
+  .opinions-sidebar {
+    position: static;
+  }
+  .card--opinion {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .card--opinion .card__number {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .card--opinion {
+    padding: 20px;
+  }
+}

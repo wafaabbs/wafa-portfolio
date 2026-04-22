@@ -1,0 +1,41 @@
+{
+  "_comment": "Articles metadata index",
+  "articles": [
+    {
+      "slug":      "manajemen-arus-kas-umkm",
+      "title":     "Manajemen Arus Kas untuk UMKM: Panduan Praktis",
+      "excerpt":   "Arus kas yang sehat adalah napas bisnis UMKM. Pelajari strategi pengelolaan cash flow yang efektif untuk bisnis skala kecil.",
+      "category":  "Finance",
+      "tags":      ["Cash Flow", "UMKM", "Keuangan"],
+      "author":    "Wafa Abbas",
+      "date":      "2026-04-10",
+      "readTime":  "6 min read",
+      "featured":  true,
+      "thumbnail": "/assets/img/articles/arus-kas-umkm.jpg"
+    },
+    {
+      "slug":      "strategi-budgeting-efektif",
+      "title":     "5 Strategi Budgeting Efektif untuk Perusahaan Berkembang",
+      "excerpt":   "Budgeting bukan sekadar angka — ini adalah peta jalan keuangan perusahaan Anda. Temukan 5 strategi yang terbukti efektif.",
+      "category":  "Accounting",
+      "tags":      ["Budgeting", "Forecasting", "Manajemen"],
+      "author":    "Wafa Abbas",
+      "date":      "2026-03-28",
+      "readTime":  "8 min read",
+      "featured":  true,
+      "thumbnail": "/assets/img/articles/budgeting.jpg"
+    },
+    {
+      "slug":      "pajak-penghasilan-21",
+      "title":     "Panduan Lengkap PPh 21: Perhitungan & Pelaporan 2025",
+      "excerpt":   "PPh 21 sering jadi tantangan bagi HR dan Finance. Simak panduan lengkap mulai dari dasar hukum hingga cara pelaporan via e-Bupot.",
+      "category":  "Taxation",
+      "tags":      ["PPh 21", "Pajak", "e-Bupot"],
+      "author":    "Wafa Abbas",
+      "date":      "2026-03-15",
+      "readTime":  "10 min read",
+      "featured":  false,
+      "thumbnail": "/assets/img/articles/pph21.jpg"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "total": 6,
+    "lastUpdated": "2026-04-22"
+  },
+  "items": [
+    {
+      "slug": "understanding-tax-compliance",
+      "titleEn": "Understanding Tax Compliance in Indonesia",
+      "titleId": "Memahami Kepatuhan Pajak di Indonesia",
+      "excerptEn": "A comprehensive guide to tax compliance requirements for businesses operating in Indonesia, covering VAT, corporate income tax, and withholding tax obligations.",
+      "excerptId": "Panduan lengkap persyaratan kepatuhan pajak bagi bisnis yang beroperasi di Indonesia, mencakup PPN, PPh Badan, dan kewajiban pemotongan pajak.",
+      "category": "taxation",
+      "tags": ["tax", "compliance", "indonesia", "VAT", "PPh"],
+      "image": "/assets/img/articles/tax-compliance.jpg",
+      "date": "2026-04-01",
+      "featured": true,
+      "readTime": 8,
+      "author": {
+        "nameEn": "Wafa Abdullah Faqih Abbas, S.E.",
+        "nameId": "Wafa Abdullah Faqih Abbas, S.E.",
+        "photo": "/assets/img/profile/wafa-photo.jpg"
+      }
+    },
+    {
+      "slug": "financial-ratio-analysis",
+      "titleEn": "Financial Ratio Analysis for Business Health",
+      "titleId": "Analisis Rasio Keuangan untuk Kesehatan Bisnis",
+      "excerptEn": "Learn how to use financial ratios to evaluate business performance, liquidity, profitability, and solvency effectively.",
+      "excerptId": "Pelajari cara menggunakan rasio keuangan untuk mengevaluasi kinerja bisnis, likuiditas, profitabilitas, dan solvabilitas secara efektif.",
+      "category": "finance",
+      "tags": ["finance", "ratio", "analysis", "business"],
+      "image": "/assets/img/articles/financial-ratio.jpg",
+      "date": "2026-03-15",
+      "featured": true,
+      "readTime": 6,
+      "author": {
+        "nameEn": "Wafa Abdullah Faqih Abbas, S.E.",
+        "nameId": "Wafa Abdullah Faqih Abbas, S.E.",
+        "photo": "/assets/img/profile/wafa-photo.jpg"
+      }
+    },
+    {
+      "slug": "cost-accounting-manufacturing",
+      "titleEn": "Cost Accounting in Manufacturing Industry",
+      "titleId": "Akuntansi Biaya di Industri Manufaktur",
+      "excerptEn": "An in-depth look at cost accounting methods used in manufacturing, including job costing, process costing, and standard costing.",
+      "excerptId": "Tinjauan mendalam tentang metode akuntansi biaya yang digunakan dalam manufaktur, termasuk job costing, process costing, dan standard costing.",
+      "category": "accounting",
+      "tags": ["accounting", "manufacturing", "cost", "costing"],
+      "image": "/assets/img/articles/cost-accounting.jpg",
+      "date": "2026-03-01",
+      "featured": true,
+      "readTime": 7,
+      "author": {
+        "nameEn": "Wafa Abdullah Faqih Abbas, S.E.",
+        "nameId": "Wafa Abdullah Faqih Abbas, S.E.",
+        "photo": "/assets/img/profile/wafa-photo.jpg"
+      }
+    },
+    {
+      "slug": "digital-transformation-finance",
+      "titleEn": "Digital Transformation in Finance & Accounting",
+      "titleId": "Transformasi Digital dalam Keuangan & Akuntansi",
+      "excerptEn": "How digital tools and automation are reshaping the finance and accounting landscape, and what professionals need to know to stay relevant.",
+      "excerptId": "Bagaimana alat digital dan otomasi membentuk kembali lanskap keuangan dan akuntansi, dan apa yang perlu diketahui profesional untuk tetap relevan.",
+      "category": "digital",
+      "tags": ["digital", "technology", "automation", "finance"],
+      "image": "/assets/img/articles/digital-finance.jpg",
+      "date": "2026-02-15",
+      "featured": false,
+      "readTime": 5,
+      "author": {
+        "nameEn": "Wafa Abdullah Faqih Abbas, S.E.",
+        "nameId": "Wafa Abdullah Faqih Abbas, S.E.",
+        "photo": "/assets/img/profile/wafa-photo.jpg"
+      }
+    },
+    {
+      "slug": "cash-flow-management",
+      "titleEn": "Effective Cash Flow Management for SMEs",
+      "titleId": "Manajemen Arus Kas yang Efektif untuk UKM",
+      "excerptEn": "Practical strategies for small and medium enterprises to manage cash flow, avoid liquidity crises, and plan for sustainable growth.",
+      "excerptId": "Strategi praktis bagi usaha kecil dan menengah untuk mengelola arus kas, menghindari krisis likuiditas, dan merencanakan pertumbuhan berkelanjutan.",
+      "category": "finance",
+      "tags": ["cashflow", "SME", "finance", "management"],
+      "image": "/assets/img/articles/cash-flow.jpg",
+      "date": "2026-02-01",
+      "featured": false,
+      "readTime": 6,
+      "author": {
+        "nameEn": "Wafa Abdullah Faqih Abbas, S.E.",
+        "nameId": "Wafa Abdullah Faqih Abbas, S.E.",
+        "photo": "/assets/img/profile/wafa-photo.jpg"
+      }
+    },
+    {
+      "slug": "business-budgeting-guide",
+      "titleEn": "A Complete Guide to Business Budgeting",
+      "titleId": "Panduan Lengkap Penganggaran Bisnis",
+      "excerptEn": "Step-by-step guide to creating, managing, and optimizing business budgets for better financial control and decision-making.",
+      "excerptId": "Panduan langkah demi langkah untuk membuat, mengelola, dan mengoptimalkan anggaran bisnis demi kontrol keuangan dan pengambilan keputusan yang lebih baik.",
+      "category": "business",
+      "tags": ["budget", "business", "planning", "finance"],
+      "image": "/assets/img/articles/budgeting.jpg",
+      "date": "2026-01-15",
+      "featured": false,
+      "readTime": 9,
+      "author": {
+        "nameEn": "Wafa Abdullah Faqih Abbas, S.E.",
+        "nameId": "Wafa Abdullah Faqih Abbas, S.E.",
+        "photo": "/assets/img/profile/wafa-photo.jpg"
+      }
+    }
+  ]
+}

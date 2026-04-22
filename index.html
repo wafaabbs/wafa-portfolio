@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wafa Abbas — Finance, Tax & Accounting Specialist</title>
+  <meta name="description" content="Finance & Accounting professional with cross-industry experience in manufacturing, tax consulting, and retail." />
+
+  <!-- Favicon -->
+  <link rel="icon" href="/assets/img/icons/favicon.ico" />
+  <link rel="apple-touch-icon" href="/assets/img/icons/apple-touch-icon.png" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/tokens.css" />
+  <link rel="stylesheet" href="/assets/css/base.css" />
+  <link rel="stylesheet" href="/assets/css/components/navbar.css" />
+  <link rel="stylesheet" href="/assets/css/components/footer.css" />
+  <link rel="stylesheet" href="/assets/css/components/card.css" />
+  <link rel="stylesheet" href="/assets/css/components/badge.css" />
+  <link rel="stylesheet" href="/assets/css/components/button.css" />
+  <link rel="stylesheet" href="/assets/css/pages/home.css" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+
+  <!-- ── Navbar ───────────────────────────────────────────── -->
+  <nav id="navbar" class="navbar">
+    <div class="container navbar__inner">
+
+      <!-- Logo -->
+      <a href="/index.html" class="navbar__logo">
+        <span class="navbar__logo-text">Wafa<span>Abbas</span></span>
+      </a>
+
+      <!-- Desktop Nav -->
+      <ul class="navbar__links">
+        <li><a href="/index.html"    class="nav-link" data-nav-link="home">Home</a></li>
+        <li><a href="/about.html"    class="nav-link" data-nav-link="about">About</a></li>
+        <li><a href="/articles.html" class="nav-link" data-nav-link="articles">Articles</a></li>
+        <li><a href="/opinions.html" class="nav-link" data-nav-link="opinions">Opinions</a></li>
+        <li><a href="/news.html"     class="nav-link" data-nav-link="news">News</a></li>
+      </ul>
+
+      <!-- Right Side -->
+      <div class="navbar__right">
+        <!-- Lang Switch -->
+        <div class="lang-switch">
+          <button class="lang-btn active" data-lang="en">EN</button>
+          <span class="lang-switch__div"></span>
+          <button class="lang-btn" data-lang="id">ID</button>
+        </div>
+
+        <!-- Search -->
+        <a href="/search.html" class="navbar__search-btn" aria-label="Search">
+          <i class="fa fa-search"></i>
+        </a>
+
+        <!-- Hamburger -->
+        <button id="hamburger" class="hamburger" aria-label="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="mobile-menu">
+      <ul class="mobile-menu__links">
+        <li><a href="/index.html"    class="nav-link" data-nav-link="home">Home</a></li>
+        <li><a href="/about.html"    class="nav-link" data-nav-link="about">About</a></li>
+        <li><a href="/articles.html" class="nav-link" data-nav-link="articles">Articles</a></li>
+        <li><a href="/opinions.html" class="nav-link" data-nav-link="opinions">Opinions</a></li>
+        <li><a href="/news.html"     class="nav-link" data-nav-link="news">News</a></li>
+      </ul>
+      <div class="mobile-menu__lang">
+        <button class="lang-btn active" data-lang="en">EN</button>
+        <button class="lang-btn" data-lang="id">ID</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ── Hero ─────────────────────────────────────────────── -->
+  <section class="hero" id="hero">
+    <div class="hero__bg"></div>
+    <div class="hero__grid-line"></div>
+    <div class="container hero__inner">
+
+      <!-- Text -->
+      <div class="hero__content">
+        <div class="hero__label">
+          <span class="hero__label-dot"></span>
+          <span data-en="Finance & Accounting Specialist"
+                data-id="Spesialis Keuangan & Akuntansi">
+            Finance & Accounting Specialist
+          </span>
+        </div>
+
+        <h1 class="hero__name">
+          Wafa Abdullah<br />
+          <span>Faqih Abbas</span>
+        </h1>
+
+        <p class="hero__tagline"
+           data-en="Bridging numbers with strategy — turning financial data into actionable business insights."
+           data-id="Menghubungkan angka dengan strategi — mengubah data keuangan menjadi wawasan bisnis yang actionable.">
+          Bridging numbers with strategy — turning financial data into actionable business insights.
+        </p>
+
+        <div class="hero__btns">
+          <a href="/about.html" class="btn btn--primary">
+            <i class="fa fa-user"></i>
+            <span data-en="About Me" data-id="Tentang Saya">About Me</span>
+          </a>
+          <a href="/assets/files/wafa-cv.pdf"
+             class="btn btn--outline"
+             download>
+            <i class="fa fa-download"></i>
+            <span data-en="Download CV" data-id="Unduh CV">Download CV</span>
+          </a>
+        </div>
+
+        <!-- Stats -->
+        <div class="hero__stats">
+          <div class="hero__stat">
+            <span class="hero__stat-num" id="stat-exp">3+</span>
+            <span class="hero__stat-label"
+                  data-en="Years Experience"
+                  data-id="Tahun Pengalaman">Years Experience</span>
+          </div>
+          <div class="hero__stat-div"></div>
+          <div class="hero__stat">
+            <span class="hero__stat-num" id="stat-cert">5+</span>
+            <span class="hero__stat-label"
+                  data-en="Certifications"
+                  data-id="Sertifikasi">Certifications</span>
+          </div>
+          <div class="hero__stat-div"></div>
+          <div class="hero__stat">
+            <span class="hero__stat-num" id="stat-articles">10+</span>
+            <span class="hero__stat-label"
+                  data-en="Articles Written"
+                  data-id="Artikel Ditulis">Articles Written</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Photo -->
+      <div class="hero__photo-wrap">
+        <div class="hero__photo-ring"></div>
+        <div class="hero__photo-glow"></div>
+        <img src="/assets/img/profile/wafa-photo.jpg"
+             alt="Wafa Abbas"
+             class="hero__photo"
+             id="hero-photo" />
+        <div class="hero__photo-badge">
+          <i class="fa fa-chart-line"></i>
+          <span data-en="Finance Expert" data-id="Ahli Keuangan">Finance Expert</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Scroll Indicator -->
+    <div class="hero__scroll">
+      <div class="hero__scroll-line"></div>
+      <span data-en="Scroll" data-id="Gulir">Scroll</span>
+    </div>
+  </section>
+
+  <!-- ── Featured Articles ─────────────────────────────────── -->
+  <section class="section featured-articles" id="featured-articles">
+    <div class="container">
+      <div class="section__header">
+        <div class="section__label">
+          <span data-en="Latest Writing" data-id="Tulisan Terbaru">Latest Writing</span>
+        </div>
+        <h2 class="section__title">
+          <span data-en="Featured " data-id="Artikel ">Featured </span>
+          <span class="accent"
+                data-en="Articles" data-id="Unggulan">Articles</span>
+        </h2>
+        <p class="section__desc"
+           data-en="Insights on finance, accounting, and taxation."
+           data-id="Wawasan tentang keuangan, akuntansi, dan perpajakan.">
+          Insights on finance, accounting, and taxation.
+        </p>
+      </div>
+
+      <!-- Cards -->
+      <div class="cards-grid" id="featured-articles-grid">
+        <!-- Rendered by home.js -->
+      </div>
+
+      <div class="section__footer">
+        <a href="/articles.html" class="btn btn--outline">
+          <span data-en="View All Articles" data-id="Lihat Semua Artikel">View All Articles</span>
+          <i class="fa fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Featured Opinions ─────────────────────────────────── -->
+  <section class="section featured-opinions" id="featured-opinions">
+    <div class="container">
+      <div class="section__header">
+        <div class="section__label">
+          <span data-en="My Perspective" data-id="Perspektif Saya">My Perspective</span>
+        </div>
+        <h2 class="section__title">
+          <span data-en="Latest " data-id="Opini ">Latest </span>
+          <span class="accent"
+                data-en="Opinions" data-id="Terbaru">Opinions</span>
+        </h2>
+      </div>
+
+      <div class="cards-grid" id="featured-opinions-grid">
+        <!-- Rendered by home.js -->
+      </div>
+
+      <div class="section__footer">
+        <a href="/opinions.html" class="btn btn--outline">
+          <span data-en="View All Opinions" data-id="Lihat Semua Opini">View All Opinions</span>
+          <i class="fa fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Featured News ─────────────────────────────────────── -->
+  <section class="section featured-news" id="featured-news">
+    <div class="container">
+      <div class="section__header">
+        <div class="section__label">
+          <span data-en="Latest Updates" data-id="Pembaruan Terbaru">Latest Updates</span>
+        </div>
+        <h2 class="section__title">
+          <span data-en="Recent " data-id="Berita ">Recent </span>
+          <span class="accent"
+                data-en="News" data-id="Terkini">News</span>
+        </h2>
+      </div>
+
+      <div class="cards-grid" id="featured-news-grid">
+        <!-- Rendered by home.js -->
+      </div>
+
+      <div class="section__footer">
+        <a href="/news.html" class="btn btn--outline">
+          <span data-en="View All News" data-id="Lihat Semua Berita">View All News</span>
+          <i class="fa fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ────────────────────────────────────────────── -->
+  <footer class="footer" id="footer">
+    <div class="container footer__inner">
+
+      <div class="footer__brand">
+        <a href="/index.html" class="footer__logo">
+          Wafa<span>Abbas</span>
+        </a>
+        <p class="footer__tagline"
+           data-en="Finance, Tax & Accounting Specialist"
+           data-id="Spesialis Keuangan, Pajak & Akuntansi">
+          Finance, Tax & Accounting Specialist
+        </p>
+        <div class="footer__socials" id="footer-socials">
+          <a href="https://linkedin.com/in/wafaabbs/"
+             target="_blank" rel="noopener"
+             class="footer__social" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="mailto:alfaqihabbas@gmail.com"
+             class="footer__social" aria-label="Email">
+            <i class="fa fa-envelope"></i>
+          </a>
+          <a href="https://wa.me/6282330610780"
+             target="_blank" rel="noopener"
+             class="footer__social" aria-label="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer__nav">
+        <h4 class="footer__nav-title"
+            data-en="Navigation" data-id="Navigasi">Navigation</h4>
+        <ul>
+          <li><a href="/index.html"    data-en="Home"     data-id="Beranda">Home</a></li>
+          <li><a href="/about.html"    data-en="About"    data-id="Tentang">About</a></li>
+          <li><a href="/articles.html" data-en="Articles" data-id="Artikel">Articles</a></li>
+          <li><a href="/opinions.html" data-en="Opinions" data-id="Opini">Opinions</a></li>
+          <li><a href="/news.html"     data-en="News"     data-id="Berita">News</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__contact">
+        <h4 class="footer__nav-title"
+            data-en="Contact" data-id="Kontak">Contact</h4>
+        <ul>
+          <li>
+            <i class="fa fa-envelope"></i>
+            <a href="mailto:alfaqihabbas@gmail.com">alfaqihabbas@gmail.com</a>
+          </li>
+          <li>
+            <i class="fab fa-whatsapp"></i>
+            <a href="https://wa.me/6282330610780">082330610780</a>
+          </li>
+          <li>
+            <i class="fab fa-linkedin-in"></i>
+            <a href="https://linkedin.com/in/wafaabbs/"
+               target="_blank" rel="noopener">linkedin.com/in/wafaabbs</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer__bottom">
+      <div class="container">
+        <p>
+          &copy; <span class="footer-year"></span>
+          Wafa Abdullah Faqih Abbas, S.E.
+          <span data-en="All rights reserved."
+                data-id="Hak cipta dilindungi.">All rights reserved.</span>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ── Scripts ───────────────────────────────────────────── -->
+  <!-- Core -->
+  <script src="/assets/js/core/config.js"></script>
+  <script src="/assets/js/core/utils.js"></script>
+  <script src="/assets/js/core/fetch.js"></script>
+  <script src="/assets/js/core/render.js"></script>
+  <script src="/assets/js/core/router.js"></script>
+
+  <!-- Components -->
+  <script src="/assets/js/components/navbar.js"></script>
+  <script src="/assets/js/components/footer.js"></script>
+  <script src="/assets/js/components/card.js"></script>
+
+  <!-- Page -->
+  <script src="/assets/js/pages/home.js"></script>
+
+  <!-- Init -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      Navbar.init();
+      Footer.init();
+      Router.highlightNav();
+      HomePage.init();
+    });
+  </script>
+
+</body>
+</html>

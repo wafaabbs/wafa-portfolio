@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Opinions — Wafa Abbas</title>
+  <meta name="description" content="Personal opinions and perspectives on economy, policy, technology, and career by Wafa Abbas." />
+
+  <!-- Favicon -->
+  <link rel="icon" href="/assets/img/icons/favicon.ico" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/tokens.css" />
+  <link rel="stylesheet" href="/assets/css/base.css" />
+  <link rel="stylesheet" href="/assets/css/components/navbar.css" />
+  <link rel="stylesheet" href="/assets/css/components/footer.css" />
+  <link rel="stylesheet" href="/assets/css/components/card.css" />
+  <link rel="stylesheet" href="/assets/css/components/badge.css" />
+  <link rel="stylesheet" href="/assets/css/components/button.css" />
+  <link rel="stylesheet" href="/assets/css/components/pagination.css" />
+  <link rel="stylesheet" href="/assets/css/pages/opinions.css" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body class="page-opinions">
+
+  <!-- ── Navbar ───────────────────────────────────────────── -->
+  <nav class="navbar" id="navbar">
+    <div class="container navbar__inner">
+
+      <!-- Logo -->
+      <a href="/index.html" class="navbar__logo">
+        <span class="navbar__logo-icon">W</span>
+        <span class="navbar__logo-text">Wafa <strong>Abbas</strong></span>
+      </a>
+
+      <!-- Nav Links -->
+      <ul class="navbar__links" id="nav-links">
+        <li><a href="/index.html"    class="nav-link" data-nav-link="home"
+          data-en="Home" data-id="Beranda">Home</a></li>
+        <li><a href="/about.html"    class="nav-link" data-nav-link="about"
+          data-en="About" data-id="Tentang">About</a></li>
+        <li><a href="/articles.html" class="nav-link" data-nav-link="articles"
+          data-en="Articles" data-id="Artikel">Articles</a></li>
+        <li><a href="/opinions.html" class="nav-link active" data-nav-link="opinions"
+          data-en="Opinions" data-id="Opini">Opinions</a></li>
+        <li><a href="/news.html"     class="nav-link" data-nav-link="news"
+          data-en="News" data-id="Berita">News</a></li>
+      </ul>
+
+      <!-- Right Actions -->
+      <div class="navbar__actions">
+        <div class="lang-switch" id="lang-switch">
+          <button class="lang-btn active" data-lang="en">EN</button>
+          <span class="lang-divider">|</span>
+          <button class="lang-btn" data-lang="id">ID</button>
+        </div>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+      <ul class="mobile-menu__links">
+        <li><a href="/index.html"    class="nav-link" data-nav-link="home"
+          data-en="Home" data-id="Beranda">Home</a></li>
+        <li><a href="/about.html"    class="nav-link" data-nav-link="about"
+          data-en="About" data-id="Tentang">About</a></li>
+        <li><a href="/articles.html" class="nav-link" data-nav-link="articles"
+          data-en="Articles" data-id="Artikel">Articles</a></li>
+        <li><a href="/opinions.html" class="nav-link active" data-nav-link="opinions"
+          data-en="Opinions" data-id="Opini">Opinions</a></li>
+        <li><a href="/news.html"     class="nav-link" data-nav-link="news"
+          data-en="News" data-id="Berita">News</a></li>
+      </ul>
+      <div class="mobile-menu__lang">
+        <button class="lang-btn active" data-lang="en">EN</button>
+        <span class="lang-divider">|</span>
+        <button class="lang-btn" data-lang="id">ID</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ── Page Header ──────────────────────────────────────── -->
+  <header class="page-header">
+    <div class="page-header__bg"></div>
+    <div class="container page-header__inner">
+      <div class="page-header__label">
+        <span data-en="Opinions" data-id="Opini">Opinions</span>
+      </div>
+      <h1 class="page-header__title">
+        <span data-en="My" data-id=""></span>
+        <span class="text-accent" data-en="Perspectives" data-id="Perspektif Saya"></span>
+      </h1>
+      <p class="page-header__desc"
+        data-en="Personal views on economy, policy, technology, and career development."
+        data-id="Pandangan pribadi tentang ekonomi, kebijakan, teknologi, dan pengembangan karir.">
+        Personal views on economy, policy, technology, and career development.
+      </p>
+    </div>
+  </header>
+
+  <!-- ── Main Content ─────────────────────────────────────── -->
+  <main class="section">
+    <div class="container">
+
+      <!-- Filter Bar -->
+      <div class="filter-bar" id="filter-bar">
+        <span class="filter-bar__label"
+          data-en="Filter:" data-id="Filter:">Filter:</span>
+        <button class="filter-btn active" data-category="all"
+          data-en="All" data-id="Semua">All</button>
+        <button class="filter-btn" data-category="economy"
+          data-en="Economy" data-id="Ekonomi">Economy</button>
+        <button class="filter-btn" data-category="policy"
+          data-en="Policy" data-id="Kebijakan">Policy</button>
+        <button class="filter-btn" data-category="technology"
+          data-en="Technology" data-id="Teknologi">Technology</button>
+        <button class="filter-btn" data-category="career"
+          data-en="Career" data-id="Karir">Career</button>
+
+        <!-- Sort -->
+        <div class="filter-bar__sort">
+          <select class="sort-select" id="sort-select">
+            <option value="newest" data-en="Newest" data-id="Terbaru">Newest</option>
+            <option value="oldest" data-en="Oldest" data-id="Terlama">Oldest</option>
+            <option value="a-z"    data-en="A–Z"    data-id="A–Z">A–Z</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Results Count -->
+      <div class="results-count" id="results-count"></div>
+
+      <!-- Cards Grid -->
+      <div class="cards-grid" id="opinions-grid">
+        <!-- Rendered by JS -->
+      </div>
+
+      <!-- Pagination -->
+      <div id="pagination-wrap"></div>
+
+    </div>
+  </main>
+
+  <!-- ── Footer ───────────────────────────────────────────── -->
+  <footer class="footer" id="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="/index.html" class="footer__logo">
+          <span class="navbar__logo-icon">W</span>
+          <span>Wafa <strong>Abbas</strong></span>
+        </a>
+        <p class="footer__tagline"
+          data-en="Finance, Tax & Accounting Specialist"
+          data-id="Spesialis Keuangan, Pajak & Akuntansi">
+          Finance, Tax & Accounting Specialist
+        </p>
+      </div>
+
+      <div class="footer__links">
+        <a href="/index.html"    data-en="Home"     data-id="Beranda">Home</a>
+        <a href="/about.html"    data-en="About"    data-id="Tentang">About</a>
+        <a href="/articles.html" data-en="Articles" data-id="Artikel">Articles</a>
+        <a href="/opinions.html" data-en="Opinions" data-id="Opini">Opinions</a>
+        <a href="/news.html"     data-en="News"     data-id="Berita">News</a>
+      </div>
+
+      <div class="footer__socials" id="footer-socials"></div>
+
+      <p class="footer__copy">
+        &copy; <span class="footer-year"></span>
+        Wafa Abbas. All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+  <!-- ── Scripts ──────────────────────────────────────────── -->
+  <script src="/assets/js/core/config.js"></script>
+  <script src="/assets/js/core/utils.js"></script>
+  <script src="/assets/js/core/fetch.js"></script>
+  <script src="/assets/js/core/render.js"></script>
+  <script src="/assets/js/core/router.js"></script>
+  <script src="/assets/js/components/navbar.js"></script>
+  <script src="/assets/js/components/footer.js"></script>
+  <script src="/assets/js/components/card.js"></script>
+  <script src="/assets/js/pages/opinions.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      Navbar.init();
+      Footer.init();
+      OpinionsPage.init();
+    });
+  </script>
+
+</body>
+</html>

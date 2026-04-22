@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Article — Wafa Abbas</title>
+  <meta name="description" content="Read full article by Wafa Abbas." />
+
+  <!-- Favicon -->
+  <link rel="icon" href="/assets/img/icons/favicon.ico" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/tokens.css" />
+  <link rel="stylesheet" href="/assets/css/base.css" />
+  <link rel="stylesheet" href="/assets/css/components/navbar.css" />
+  <link rel="stylesheet" href="/assets/css/components/footer.css" />
+  <link rel="stylesheet" href="/assets/css/components/card.css" />
+  <link rel="stylesheet" href="/assets/css/components/badge.css" />
+  <link rel="stylesheet" href="/assets/css/components/button.css" />
+  <link rel="stylesheet" href="/assets/css/pages/detail.css" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+
+  <!-- ── Navbar ───────────────────────────────────────────── -->
+  <nav id="navbar" class="navbar">
+    <div class="container navbar__inner">
+
+      <!-- Brand -->
+      <a href="/index.html" class="navbar__brand">
+        <span class="navbar__brand-icon">
+          <i class="fa-solid fa-chart-line"></i>
+        </span>
+        <span class="navbar__brand-text">Wafa<span>Abbas</span></span>
+      </a>
+
+      <!-- Desktop Links -->
+      <ul class="navbar__links">
+        <li><a href="/index.html"    class="nav-link" data-nav-link="home"
+          data-en="Home" data-id="Beranda">Home</a></li>
+        <li><a href="/about.html"    class="nav-link" data-nav-link="about"
+          data-en="About" data-id="Tentang">About</a></li>
+        <li><a href="/articles.html" class="nav-link" data-nav-link="articles"
+          data-en="Articles" data-id="Artikel">Articles</a></li>
+        <li><a href="/opinions.html" class="nav-link" data-nav-link="opinions"
+          data-en="Opinions" data-id="Opini">Opinions</a></li>
+        <li><a href="/news.html"     class="nav-link" data-nav-link="news"
+          data-en="News" data-id="Berita">News</a></li>
+      </ul>
+
+      <!-- Actions -->
+      <div class="navbar__actions">
+        <a href="/search.html" class="navbar__search-btn" aria-label="Search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </a>
+        <div class="lang-switch">
+          <button class="lang-btn active" data-lang="en">EN</button>
+          <span class="lang-switch__divider">|</span>
+          <button class="lang-btn" data-lang="id">ID</button>
+        </div>
+        <button id="hamburger" class="navbar__hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="mobile-menu">
+      <ul class="mobile-menu__links">
+        <li><a href="/index.html"    class="nav-link" data-nav-link="home"
+          data-en="Home" data-id="Beranda">Home</a></li>
+        <li><a href="/about.html"    class="nav-link" data-nav-link="about"
+          data-en="About" data-id="Tentang">About</a></li>
+        <li><a href="/articles.html" class="nav-link" data-nav-link="articles"
+          data-en="Articles" data-id="Artikel">Articles</a></li>
+        <li><a href="/opinions.html" class="nav-link" data-nav-link="opinions"
+          data-en="Opinions" data-id="Opini">Opinions</a></li>
+        <li><a href="/news.html"     class="nav-link" data-nav-link="news"
+          data-en="News" data-id="Berita">News</a></li>
+      </ul>
+      <div class="mobile-menu__lang">
+        <button class="lang-btn active" data-lang="en">EN</button>
+        <span>|</span>
+        <button class="lang-btn" data-lang="id">ID</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ── Main ─────────────────────────────────────────────── -->
+  <main id="main">
+
+    <!-- Detail Hero -->
+    <section class="detail-hero">
+      <div class="container">
+        <div id="detail-breadcrumb" class="detail-breadcrumb">
+          <a href="/index.html">
+            <i class="fa fa-house"></i>
+          </a>
+          <i class="fa fa-chevron-right"></i>
+          <a href="/articles.html"
+            data-en="Articles" data-id="Artikel">Articles</a>
+          <i class="fa fa-chevron-right"></i>
+          <span id="breadcrumb-title">Loading...</span>
+        </div>
+
+        <!-- Detail Header -->
+        <div id="detail-header" class="detail-header">
+          <!-- Rendered by JS -->
+          <div class="skeleton skeleton--detail-header">
+            <div class="skeleton__line skeleton__line--sm"></div>
+            <div class="skeleton__line skeleton__line--xl"></div>
+            <div class="skeleton__line"></div>
+            <div class="skeleton__line skeleton__line--sm"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Detail Body -->
+    <section class="detail-body">
+      <div class="container">
+        <div class="detail-layout">
+
+          <!-- Content -->
+          <article id="detail-content" class="detail-content">
+            <!-- Rendered by JS -->
+            <div class="skeleton skeleton--detail-body">
+              <div class="skeleton__line"></div>
+              <div class="skeleton__line"></div>
+              <div class="skeleton__line skeleton__line--lg"></div>
+              <div class="skeleton__line"></div>
+              <div class="skeleton__line skeleton__line--sm"></div>
+            </div>
+          </article>
+
+          <!-- Sidebar -->
+          <aside class="detail-sidebar">
+
+            <!-- Author Card -->
+            <div class="sidebar-card">
+              <div class="sidebar-card__header">
+                <span data-en="About the Author" data-id="Tentang Penulis">
+                  About the Author
+                </span>
+              </div>
+              <div class="sidebar-card__body">
+                <div class="author-mini">
+                  <img
+                    src="/assets/img/profile/wafa-photo.jpg"
+                    alt="Wafa Abbas"
+                    class="author-mini__photo"
+                  />
+                  <div class="author-mini__info">
+                    <strong>Wafa Abbas</strong>
+                    <span data-en="Finance & Accounting Specialist"
+                          data-id="Spesialis Keuangan & Akuntansi">
+                      Finance & Accounting Specialist
+                    </span>
+                  </div>
+                </div>
+                <p class="author-mini__bio"
+                   data-en="Cross-industry professional in finance, tax, and accounting."
+                   data-id="Profesional lintas industri di bidang keuangan, pajak, dan akuntansi.">
+                  Cross-industry professional in finance, tax, and accounting.
+                </p>
+                <a href="/about.html" class="btn btn--outline btn--sm btn--full">
+                  <i class="fa fa-user"></i>
+                  <span data-en="View Profile" data-id="Lihat Profil">View Profile</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Share -->
+            <div class="sidebar-card">
+              <div class="sidebar-card__header">
+                <span data-en="Share Article" data-id="Bagikan Artikel">
+                  Share Article
+                </span>
+              </div>
+              <div class="sidebar-card__body">
+                <div id="share-buttons" class="share-buttons">
+                  <!-- Rendered by JS -->
+                </div>
+              </div>
+            </div>
+
+            <!-- Related -->
+            <div class="sidebar-card">
+              <div class="sidebar-card__header">
+                <span data-en="Related Articles" data-id="Artikel Terkait">
+                  Related Articles
+                </span>
+              </div>
+              <div id="related-posts" class="sidebar-card__body">
+                <!-- Rendered by JS -->
+              </div>
+            </div>
+
+          </aside>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── Footer ───────────────────────────────────────────── -->
+  <footer id="footer" class="footer">
+    <div class="container">
+      <div class="footer__inner">
+
+        <div class="footer__brand">
+          <a href="/index.html" class="navbar__brand">
+            <span class="navbar__brand-icon">
+              <i class="fa-solid fa-chart-line"></i>
+            </span>
+            <span class="navbar__brand-text">Wafa<span>Abbas</span></span>
+          </a>
+          <p class="footer__tagline"
+             data-en="Finance, Tax & Accounting Specialist"
+             data-id="Spesialis Keuangan, Pajak & Akuntansi">
+            Finance, Tax & Accounting Specialist
+          </p>
+        </div>
+
+        <div class="footer__links">
+          <a href="/index.html"    data-en="Home"     data-id="Beranda">Home</a>
+          <a href="/about.html"    data-en="About"    data-id="Tentang">About</a>
+          <a href="/articles.html" data-en="Articles" data-id="Artikel">Articles</a>
+          <a href="/opinions.html" data-en="Opinions" data-id="Opini">Opinions</a>
+          <a href="/news.html"     data-en="News"     data-id="Berita">News</a>
+        </div>
+
+        <div class="footer__social" id="footer-social">
+          <!-- Rendered by JS -->
+        </div>
+
+      </div>
+
+      <div class="footer__bottom">
+        <p>
+          &copy; <span class="footer-year"></span> Wafa Abbas.
+          <span data-en="All rights reserved."
+                data-id="Hak cipta dilindungi.">
+            All rights reserved.
+          </span>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ── Scripts ──────────────────────────────────────────── -->
+  <script src="/assets/js/core/config.js"></script>
+  <script src="/assets/js/core/utils.js"></script>
+  <script src="/assets/js/core/fetch.js"></script>
+  <script src="/assets/js/core/render.js"></script>
+  <script src="/assets/js/core/router.js"></script>
+  <script src="/assets/js/components/navbar.js"></script>
+  <script src="/assets/js/components/footer.js"></script>
+  <script src="/assets/js/components/card.js"></script>
+  <script src="/assets/js/pages/detail.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      Navbar.init();
+      Footer.init();
+      DetailPage.init('articles');
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "total": 6,
+    "lastUpdated": "2026-04-22"
+  },
+  "items": [
+    {
+      "slug": "future-of-digital-taxation",
+      "titleEn": "The Future of Digital Taxation in Southeast Asia",
+      "titleId": "Masa Depan Perpajakan Digital di Asia Tenggara",
+      "excerptEn": "As digital economies grow, Southeast Asian governments face new challenges in taxing digital services and cross-border transactions effectively.",
+      "excerptId": "Seiring berkembangnya ekonomi digital, pemerintah Asia Tenggara menghadapi tantangan baru dalam mengenakan pajak layanan digital dan transaksi lintas batas secara efektif.",
+      "category": "economy",
+      "tags": ["digital", "taxation", "southeast-asia", "economy"],
+      "image": "/assets/img/opinions/digital-taxation.jpg",
+      "date": "2026-04-10",
+      "featured": true,
+      "readTime": 6,
+      "author": {
+        "nameEn": "Wafa Abdullah Faqih Abbas, S.E.",
+        "nameId": "Wafa Abdullah Faqih Abbas, S.E.",
+        "photo": "/assets/img/profile/wafa-photo.jpg"
+      }
+    },
+    {
+      "slug": "accountant-role-in-digital-era",
+      "titleEn": "The Evolving Role of Accountants in the Digital Era",
+      "titleId": "Peran Akuntan yang Berkembang di Era Digital",
+      "excerptEn": "Technology is reshaping the accounting profession. How should accountants adapt to remain relevant in an increasingly automated world?",
+      "excerptId": "Teknologi mengubah profesi akuntansi. Bagaimana akuntan harus beradaptasi agar tetap relevan di dunia yang semakin otomatis?",
+      "category": "technology",
+      "tags": ["accounting", "digital", "technology", "career"],
+      "image": "/assets/img/opinions/accountant-digital.jpg",
+      "date": "2026-03-25",
+      "featured": true,
+      "readTime": 5,
+      "author": {
+        "nameEn": "Wafa Abdullah Faqih Abbas, S.E.",
+        "nameId": "Wafa Abdullah Faqih Abbas, S.E.",
+        "photo": "/assets/img/profile/wafa-photo.jpg"
+      }
+    },
+    {
+      "slug": "tax-reform-impact",
+      "titleEn": "Impact of Tax Reform on Small and Medium Enterprises",
+      "titleId": "Dampak Reformasi Pajak pada Usaha Kecil dan Menengah",
+      "excerptEn": "Recent tax reforms in Indonesia have significant implications for SMEs. Understanding these changes is crucial for business survival and growth.",
+      "excerptId": "Reformasi pajak terkini di Indonesia memiliki implikasi signifikan bagi UKM. Memahami perubahan ini sangat penting untuk kelangsungan dan pertumbuhan bisnis.",
+      "category": "policy",
+      "tags": ["tax", "reform", "SME", "policy", "indonesia"],
+      "image": "/assets/img/opinions/tax-reform.jpg",
+      "date": "2026-03-10",
+      "featured": false,
+      "readTime": 7,
+      "author": {
+        "nameEn": "Wafa Abdullah Faqih Abbas, S.E.",
+        "nameId": "Wafa Abdullah Faqih Abbas, S.E.",
+        "photo": "/assets/img/profile/wafa-photo.jpg"
+      }
+    },
+    {
+      "slug": "career-in-finance",
+      "titleEn": "Building a Successful Career in Finance and Accounting",
+      "titleId": "Membangun Karir yang Sukses di Bidang Keuangan dan Akuntansi",
+      "excerptEn": "Practical advice for young professionals looking to build a rewarding career in finance and accounting in Indonesia's competitive job market.",
+      "excerptId": "Saran praktis bagi para profesional muda yang ingin membangun karir yang memuaskan di bidang keuangan dan akuntansi di pasar kerja Indonesia yang kompetitif.",
+      "category": "career",
+      "tags": ["career", "finance", "accounting", "professional"],
+      "image": "/assets/img/opinions/career-finance.jpg",
+      "date": "2026-02-20",
+      "featured": false,
+      "readTime": 6,
+      "author": {
+        "nameEn": "Wafa Abdullah Faqih Abbas, S.E.",
+        "nameId": "Wafa Abdullah Faqih Abbas, S.E.",
+        "photo": "/assets/img/profile/wafa-photo.jpg"
+      }
+    },
+    {
+      "slug": "economic-outlook-2026",
+      "titleEn": "Indonesia's Economic Outlook for 2026",
+      "titleId": "Prospek Ekonomi Indonesia untuk 2026",
+      "excerptEn": "An analysis of key economic indicators and trends that will shape Indonesia's economic landscape in 2026 and beyond.",
+      "excerptId": "Analisis indikator ekonomi utama dan tren yang akan membentuk lanskap ekonomi Indonesia pada 2026 dan seterusnya.",
+      "category": "economy",
+      "tags": ["economy", "indonesia", "outlook", "2026"],
+      "image": "/assets/img/opinions/economic-outlook.jpg",
+      "date": "2026-02-05",
+      "featured": false,
+      "readTime": 8,
+      "author": {
+        "nameEn": "Wafa Abdullah Faqih Abbas, S.E.",
+        "nameId": "Wafa Abdullah Faqih Abbas, S.E.",
+        "photo": "/assets/img/profile/wafa-photo.jpg"
+      }
+    },
+    {
+      "slug": "financial-literacy-importance",
+      "titleEn": "Why Financial Literacy Matters for Everyone",
+      "titleId": "Mengapa Literasi Keuangan Penting untuk Semua Orang",
+      "excerptEn": "Financial literacy is a fundamental life skill that empowers individuals to make informed decisions about money, investments, and financial planning.",
+      "excerptId": "Literasi keuangan adalah keterampilan hidup mendasar yang memberdayakan individu untuk membuat keputusan yang tepat tentang uang, investasi, dan perencanaan keuangan.",
+      "category": "economy",
+      "tags": ["financial-literacy", "education", "economy", "personal-finance"],
+      "image": "/assets/img/opinions/financial-literacy.jpg",
+      "date": "2026-01-15",
+      "featured": false,
+      "readTime": 5,
+      "author": {
+        "nameEn": "Wafa Abdullah Faqih Abbas, S.E.",
+        "nameId": "Wafa Abdullah Faqih Abbas, S.E.",
+        "photo": "/assets/img/profile/wafa-photo.jpg"
+      }
+    }
+  ]
+}

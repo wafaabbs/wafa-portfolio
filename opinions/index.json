@@ -1,0 +1,29 @@
+{
+  "_comment": "Opinions metadata index",
+  "opinions": [
+    {
+      "slug":      "digitalisasi-keuangan-2025",
+      "title":     "Digitalisasi Keuangan 2025: Peluang atau Ancaman bagi Akuntan?",
+      "excerpt":   "Era digital membawa tools baru seperti AI dan cloud accounting. Apakah ini akan menggantikan peran akuntan, atau justru membuka peluang baru?",
+      "category":  "Opinion",
+      "tags":      ["Digital", "Akuntansi", "AI", "Masa Depan"],
+      "author":    "Wafa Abbas",
+      "date":      "2026-04-05",
+      "readTime":  "5 min read",
+      "featured":  true,
+      "thumbnail": "/assets/img/opinions/digitalisasi.jpg"
+    },
+    {
+      "slug":      "peran-akuntan-era-ai",
+      "title":     "Mengapa Akuntan Harus Melek AI di Era 2025",
+      "excerpt":   "Artificial Intelligence bukan musuh akuntan — ia adalah co-pilot. Opini tentang bagaimana akuntan harus beradaptasi dengan teknologi.",
+      "category":  "Opinion",
+      "tags":      ["AI", "Akuntan", "Teknologi"],
+      "author":    "Wafa Abbas",
+      "date":      "2026-03-20",
+      "readTime":  "4 min read",
+      "featured":  false,
+      "thumbnail": "/assets/img/opinions/ai-akuntan.jpg"
+    }
+  ]
+}

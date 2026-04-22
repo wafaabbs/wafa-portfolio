@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "total": 6,
+    "lastUpdated": "2026-04-22"
+  },
+  "items": [
+    {
+      "slug": "graduated-with-honors",
+      "titleEn": "Graduated with Honors in Economics",
+      "titleId": "Lulus dengan Predikat Cum Laude di Bidang Ekonomi",
+      "excerptEn": "Wafa Abdullah Faqih Abbas successfully completed his Bachelor of Economics degree with honors, marking a significant milestone in his academic journey.",
+      "excerptId": "Wafa Abdullah Faqih Abbas berhasil menyelesaikan gelar Sarjana Ekonomi dengan predikat cumlaude, menandai pencapaian penting dalam perjalanan akademisnya.",
+      "category": "achievement",
+      "tags": ["graduation", "academic", "economics", "achievement"],
+      "image": "/assets/img/news/graduation.jpg",
+      "date": "2024-09-01",
+      "featured": true,
+      "readTime": 3,
+      "author": {
+        "nameEn": "Wafa Abdullah Faqih Abbas, S.E.",
+        "nameId": "Wafa Abdullah Faqih Abbas, S.E.",
+        "photo": "/assets/img/profile/wafa-photo.jpg"
+      },
+      "contentEn": "Wafa Abdullah Faqih Abbas successfully completed his Bachelor of Economics degree with honors from his university. This achievement reflects years of dedication, hard work, and passion for the field of finance and accounting.",
+      "contentId": "Wafa Abdullah Faqih Abbas berhasil menyelesaikan gelar Sarjana Ekonomi dengan predikat cumlaude dari universitasnya. Pencapaian ini mencerminkan dedikasi, kerja keras, dan semangat selama bertahun-tahun di bidang keuangan dan akuntansi."
+    },
+    {
+      "slug": "joined-casha-holding",
+      "titleEn": "Joined CASHA HOLDING as Finance Specialist",
+      "titleId": "Bergabung dengan CASHA HOLDING sebagai Spesialis Keuangan",
+      "excerptEn": "Wafa Abbas joins CASHA HOLDING, bringing his expertise in finance, tax, and accounting to support the company's financial operations.",
+      "excerptId": "Wafa Abbas bergabung dengan CASHA HOLDING, membawa keahliannya di bidang keuangan, pajak, dan akuntansi untuk mendukung operasional keuangan perusahaan.",
+      "category": "career",
+      "tags": ["career", "casha", "finance", "holding"],
+      "image": "/assets/img/news/casha-holding.jpg",
+      "date": "2025-01-15",
+      "featured": true,
+      "readTime": 3,
+      "author": {
+        "nameEn": "Wafa Abdullah Faqih Abbas, S.E.",
+        "nameId": "Wafa Abdullah Faqih Abbas, S.E.",
+        "photo": "/assets/img/profile/wafa-photo.jpg"
+      },
+      "contentEn": "Wafa Abbas has officially joined CASHA HOLDING as a Finance Specialist. In this role, he will be responsible for financial reporting, tax compliance, and supporting the company's overall financial strategy.",
+      "contentId": "Wafa Abbas resmi bergabung dengan CASHA HOLDING sebagai Spesialis Keuangan. Dalam peran ini, ia akan bertanggung jawab atas pelaporan keuangan, kepatuhan pajak, dan mendukung strategi keuangan perusahaan secara keseluruhan."
+    },
+    {
+      "slug": "tax-certification-achieved",
+      "titleEn": "Achieved Brevet A & B Tax Certification",
+      "titleId": "Meraih Sertifikasi Pajak Brevet A & B",
+      "excerptEn": "Wafa Abbas successfully completed the Brevet A & B tax certification program, strengthening his expertise in Indonesian taxation.",
+      "excerptId": "Wafa Abbas berhasil menyelesaikan program sertifikasi pajak Brevet A & B, memperkuat keahliannya dalam perpajakan Indonesia.",
+      "category": "achievement",
+      "tags": ["certification", "tax", "brevet", "achievement"],
+      "image": "/assets/img/news/tax-certification.jpg",
+      "date": "2025-03-20",
+      "featured": false,
+      "readTime": 3,
+      "author": {
+        "nameEn": "Wafa Abdullah Faqih Abbas, S.E.",
+        "nameId": "Wafa Abdullah Faqih Abbas, S.E.",
+        "photo": "/assets/img/profile/wafa-photo.jpg"
+      },
+      "contentEn": "Wafa Abbas has successfully completed the Brevet A & B tax certification program. This certification validates his comprehensive understanding of Indonesian tax regulations, including income tax, VAT, and tax administration procedures.",
+      "contentId": "Wafa Abbas berhasil menyelesaikan program sertifikasi pajak Brevet A & B. Sertifikasi ini memvalidasi pemahamannya yang komprehensif tentang peraturan pajak Indonesia, termasuk pajak penghasilan, PPN, dan prosedur administrasi pajak."
+    },
+    {
+      "slug": "published-first-article",
+      "titleEn": "Published First Professional Article on Tax Compliance",
+      "titleId": "Menerbitkan Artikel Profesional Pertama tentang Kepatuhan Pajak",
+      "excerptEn": "Wafa Abbas publishes his first professional article on tax compliance in Indonesia, sharing insights from his experience in the field.",
+      "excerptId": "Wafa Abbas menerbitkan artikel profesional pertamanya tentang kepatuhan pajak di Indonesia, berbagi wawasan dari pengalamannya di lapangan.",
+      "category": "publication",
+      "tags": ["publication", "article", "tax", "writing"],
+      "image": "/assets/img/news/first-article.jpg",
+      "date": "2026-04-01",
+      "featured": false,
+      "readTime": 2,
+      "author": {
+        "nameEn": "Wafa Abdullah Faqih Abbas, S.E.",
+        "nameId": "Wafa Abdullah Faqih Abbas, S.E.",
+        "photo": "/assets/img/profile/wafa-photo.jpg"
+      },
+      "contentEn": "Wafa Abbas has published his first professional article titled 'Understanding Tax Compliance in Indonesia'. The article covers key aspects of tax compliance for businesses, including VAT obligations, corporate income tax, and withholding tax requirements.",
+      "contentId": "Wafa Abbas telah menerbitkan artikel profesional pertamanya berjudul 'Memahami Kepatuhan Pajak di Indonesia'. Artikel ini mencakup aspek-aspek utama kepatuhan pajak bagi bisnis, termasuk kewajiban PPN, pajak penghasilan badan, dan persyaratan pemotongan pajak."
+    },
+    {
+      "slug": "finance-seminar-speaker",
+      "titleEn": "Invited as Speaker at Finance & Accounting Seminar",
+      "titleId": "Diundang sebagai Pembicara di Seminar Keuangan & Akuntansi",
+      "excerptEn": "Wafa Abbas was invited as a speaker at a regional finance and accounting seminar, sharing his expertise on financial reporting and tax compliance.",
+      "excerptId": "Wafa Abbas diundang sebagai pembicara di seminar keuangan dan akuntansi regional, berbagi keahliannya tentang pelaporan keuangan dan kepatuhan pajak.",
+      "category": "event",
+      "tags": ["seminar", "speaker", "finance", "event"],
+      "image": "/assets/img/news/seminar.jpg",
+      "date": "2026-02-15",
+      "featured": false,
+      "readTime": 3,
+      "author": {
+        "nameEn": "Wafa Abdullah Faqih Abbas, S.E.",
+        "nameId": "Wafa Abdullah Faqih Abbas, S.E.",
+        "photo": "/assets/img/profile/wafa-photo.jpg"
+      },
+      "contentEn": "Wafa Abbas was invited as a guest speaker at a regional finance and accounting seminar. He presented on the topic of financial reporting best practices and tax compliance strategies for small and medium enterprises.",
+      "contentId": "Wafa Abbas diundang sebagai pembicara tamu di seminar keuangan dan akuntansi regional. Ia mempresentasikan topik praktik terbaik pelaporan keuangan dan strategi kepatuhan pajak untuk usaha kecil dan menengah."
+    },
+    {
+      "slug": "linkedin-milestone",
+      "titleEn": "Reached 1000+ Connections on LinkedIn",
+      "titleId": "Mencapai 1000+ Koneksi di LinkedIn",
+      "excerptEn": "Wafa Abbas reaches a significant milestone on LinkedIn, connecting with finance and accounting professionals across Indonesia and Southeast Asia.",
+      "excerptId": "Wafa Abbas mencapai pencapaian penting di LinkedIn, terhubung dengan para profesional keuangan dan akuntansi di seluruh Indonesia dan Asia Tenggara.",
+      "category": "achievement",
+      "tags": ["linkedin", "network", "milestone", "professional"],
+      "image": "/assets/img/news/linkedin.jpg",
+      "date": "2026-03-10",
+      "featured": false,
+      "readTime": 2,
+      "author": {
+        "nameEn": "Wafa Abdullah Faqih Abbas, S.E.",
+        "nameId": "Wafa Abdullah Faqih Abbas, S.E.",
+        "photo": "/assets/img/profile/wafa-photo.jpg"
+      },
+      "contentEn": "Wafa Abbas has reached over 1000 connections on LinkedIn, building a strong professional network with finance, accounting, and tax professionals across Indonesia and Southeast Asia. This milestone reflects his active engagement in the professional community.",
+      "contentId": "Wafa Abbas telah mencapai lebih dari 1000 koneksi di LinkedIn, membangun jaringan profesional yang kuat dengan para profesional keuangan, akuntansi, dan pajak di seluruh Indonesia dan Asia Tenggara. Pencapaian ini mencerminkan keterlibatan aktifnya dalam komunitas profesional."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Wafa Abbas",
+  "tagline": "Writer · Journalist · Content Strategist",
+  "bio": "...",
+  "email": "wafa@email.com",
+  "social": {
+    "instagram": "",
+    "linkedin": "",
+    "twitter": "",
+    "github": ""
+  },
+  "skills": ["Investigative Journalism", "Content Strategy"],
+  "experience": [
+    {
+      "role": "Senior Writer",
+      "company": "Media X",
+      "period": "2023 - Present",
+      "desc": "..."
+    }
+  ],
+  "education": [
+    {
+      "degree": "S1 Komunikasi",
+      "university": "Universitas X",
+      "year": "2020"
+    }
+  ],
+  "cv": "/assets/files/wafa-cv.pdf"
+}

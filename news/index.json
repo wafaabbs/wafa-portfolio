@@ -1,0 +1,29 @@
+{
+  "_comment": "News metadata index",
+  "news": [
+    {
+      "slug":      "wafa-bergabung-casha",
+      "title":     "Wafa Abbas Bergabung sebagai Finance & Tax Specialist di Casha",
+      "excerpt":   "Wafa Abdullah Faqih Abbas resmi bergabung dengan Casha pada Februari 2025 sebagai Finance, Tax & Accounting Specialist.",
+      "category":  "Career",
+      "tags":      ["Casha", "Finance", "Karir"],
+      "author":    "Wafa Abbas",
+      "date":      "2025-02-01",
+      "readTime":  "2 min read",
+      "featured":  true,
+      "thumbnail": "/assets/img/news/casha.jpg"
+    },
+    {
+      "slug":      "sertifikasi-brevet-ab",
+      "title":     "Wafa Abbas Raih Sertifikasi Brevet Pajak A & B dari Amana Tax",
+      "excerpt":   "Setelah menyelesaikan program intensif selama 3 bulan, Wafa resmi mendapatkan sertifikasi Brevet A & B dari Amana Tax Training Jakarta.",
+      "category":  "Achievement",
+      "tags":      ["Brevet", "Pajak", "Sertifikasi"],
+      "author":    "Wafa Abbas",
+      "date":      "2024-06-30",
+      "readTime":  "2 min read",
+      "featured":  false,
+      "thumbnail": "/assets/img/news/brevet.jpg"
+    }
+  ]
+}

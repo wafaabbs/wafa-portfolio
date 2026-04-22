@@ -1,0 +1,334 @@
+{
+  "personal": {
+    "nameEn": "Wafa Abdullah Faqih Abbas, S.E.",
+    "nameId": "Wafa Abdullah Faqih Abbas, S.E.",
+    "titleEn": "Finance, Tax & Accounting Specialist",
+    "titleId": "Spesialis Keuangan, Pajak & Akuntansi",
+    "bioEn": "Finance & Accounting professional with cross-industry experience in manufacturing, tax consulting, and retail. Skilled in financial reporting, tax compliance, and operational efficiency.",
+    "bioId": "Profesional Keuangan & Akuntansi dengan pengalaman lintas industri di bidang manufaktur, konsultan pajak, dan ritel. Terampil dalam pelaporan keuangan, kepatuhan pajak, dan efisiensi operasional.",
+    "email": "alfaqihabbas@gmail.com",
+    "phone": "082330610780",
+    "whatsapp": "https://wa.me/6282330610780",
+    "linkedin": "https://linkedin.com/in/wafaabbs/",
+    "location": "Indonesia",
+    "photo": "/assets/img/profile/wafa-photo.jpg",
+    "cv": "/assets/files/wafa-cv.pdf"
+  },
+
+  "stats": {
+    "experience": "3+",
+    "projects": "20+",
+    "certifications": "10+",
+    "industries": "3"
+  },
+
+  "skills": {
+    "technical": [
+      {
+        "nameEn": "Financial Reporting",
+        "nameId": "Pelaporan Keuangan",
+        "level": 90,
+        "icon": "fa-chart-line"
+      },
+      {
+        "nameEn": "Tax Compliance",
+        "nameId": "Kepatuhan Pajak",
+        "level": 88,
+        "icon": "fa-file-invoice-dollar"
+      },
+      {
+        "nameEn": "Accounting & Bookkeeping",
+        "nameId": "Akuntansi & Pembukuan",
+        "level": 92,
+        "icon": "fa-book"
+      },
+      {
+        "nameEn": "Financial Analysis",
+        "nameId": "Analisis Keuangan",
+        "level": 85,
+        "icon": "fa-magnifying-glass-chart"
+      },
+      {
+        "nameEn": "Budgeting & Forecasting",
+        "nameId": "Anggaran & Proyeksi",
+        "level": 82,
+        "icon": "fa-calculator"
+      },
+      {
+        "nameEn": "Payroll Management",
+        "nameId": "Manajemen Penggajian",
+        "level": 87,
+        "icon": "fa-money-bill-wave"
+      }
+    ],
+    "tools": [
+      {
+        "nameEn": "Microsoft Excel",
+        "nameId": "Microsoft Excel",
+        "level": 95,
+        "icon": "fa-file-excel"
+      },
+      {
+        "nameEn": "SAP",
+        "nameId": "SAP",
+        "level": 78,
+        "icon": "fa-database"
+      },
+      {
+        "nameEn": "MYOB",
+        "nameId": "MYOB",
+        "level": 80,
+        "icon": "fa-laptop"
+      },
+      {
+        "nameEn": "e-Faktur",
+        "nameId": "e-Faktur",
+        "level": 90,
+        "icon": "fa-receipt"
+      },
+      {
+        "nameEn": "e-SPT",
+        "nameId": "e-SPT",
+        "level": 88,
+        "icon": "fa-file-alt"
+      },
+      {
+        "nameEn": "Power BI",
+        "nameId": "Power BI",
+        "level": 72,
+        "icon": "fa-chart-pie"
+      }
+    ],
+    "soft": [
+      {
+        "nameEn": "Analytical Thinking",
+        "nameId": "Berpikir Analitis",
+        "icon": "fa-brain"
+      },
+      {
+        "nameEn": "Attention to Detail",
+        "nameId": "Teliti & Detail",
+        "icon": "fa-eye"
+      },
+      {
+        "nameEn": "Time Management",
+        "nameId": "Manajemen Waktu",
+        "icon": "fa-clock"
+      },
+      {
+        "nameEn": "Team Collaboration",
+        "nameId": "Kolaborasi Tim",
+        "icon": "fa-people-group"
+      },
+      {
+        "nameEn": "Problem Solving",
+        "nameId": "Pemecahan Masalah",
+        "icon": "fa-lightbulb"
+      },
+      {
+        "nameEn": "Communication",
+        "nameId": "Komunikasi",
+        "icon": "fa-comments"
+      }
+    ]
+  },
+
+  "experience": [
+    {
+      "id": "exp-001",
+      "companyEn": "Manufacturing Company",
+      "companyId": "Perusahaan Manufaktur",
+      "roleEn": "Finance & Accounting Staff",
+      "roleId": "Staf Keuangan & Akuntansi",
+      "periodEn": "2022 — Present",
+      "periodId": "2022 — Sekarang",
+      "locationEn": "Indonesia",
+      "locationId": "Indonesia",
+      "type": "full-time",
+      "descEn": [
+        "Prepared monthly financial reports and managed general ledger entries.",
+        "Handled tax compliance including VAT, PPh 21, 23, and annual tax return.",
+        "Coordinated with external auditors for annual audit process.",
+        "Monitored accounts payable and receivable to ensure timely payments.",
+        "Assisted in budgeting and financial forecasting activities."
+      ],
+      "descId": [
+        "Menyusun laporan keuangan bulanan dan mengelola entri buku besar.",
+        "Menangani kepatuhan pajak termasuk PPN, PPh 21, 23, dan SPT tahunan.",
+        "Berkoordinasi dengan auditor eksternal untuk proses audit tahunan.",
+        "Memantau utang dan piutang untuk memastikan pembayaran tepat waktu.",
+        "Membantu kegiatan penganggaran dan proyeksi keuangan."
+      ],
+      "skills": ["Financial Reporting", "Tax Compliance", "SAP", "Excel"]
+    },
+    {
+      "id": "exp-002",
+      "companyEn": "Tax Consulting Firm",
+      "companyId": "Kantor Konsultan Pajak",
+      "roleEn": "Tax Consultant",
+      "roleId": "Konsultan Pajak",
+      "periodEn": "2021 — 2022",
+      "periodId": "2021 — 2022",
+      "locationEn": "Indonesia",
+      "locationId": "Indonesia",
+      "type": "full-time",
+      "descEn": [
+        "Provided tax advisory services for SME and corporate clients.",
+        "Prepared and filed monthly and annual tax returns (SPT).",
+        "Conducted tax review and identified potential tax savings.",
+        "Assisted clients in tax dispute resolution with tax authorities.",
+        "Trained clients on e-Faktur and e-SPT applications."
+      ],
+      "descId": [
+        "Memberikan layanan konsultasi pajak untuk klien UKM dan korporat.",
+        "Menyiapkan dan melaporkan SPT bulanan dan tahunan.",
+        "Melakukan review pajak dan mengidentifikasi potensi penghematan pajak.",
+        "Membantu klien dalam penyelesaian sengketa pajak dengan otoritas pajak.",
+        "Melatih klien penggunaan aplikasi e-Faktur dan e-SPT."
+      ],
+      "skills": ["Tax Advisory", "e-Faktur", "e-SPT", "Tax Review"]
+    },
+    {
+      "id": "exp-003",
+      "companyEn": "Retail Company",
+      "companyId": "Perusahaan Ritel",
+      "roleEn": "Accounting Staff",
+      "roleId": "Staf Akuntansi",
+      "periodEn": "2020 — 2021",
+      "periodId": "2020 — 2021",
+      "locationEn": "Indonesia",
+      "locationId": "Indonesia",
+      "type": "full-time",
+      "descEn": [
+        "Managed daily bookkeeping and financial transactions.",
+        "Reconciled bank statements and prepared cash flow reports.",
+        "Processed payroll for 50+ employees using MYOB.",
+        "Maintained fixed asset records and depreciation schedules.",
+        "Supported month-end and year-end closing processes."
+      ],
+      "descId": [
+        "Mengelola pembukuan harian dan transaksi keuangan.",
+        "Merekonsiliasi laporan bank dan menyiapkan laporan arus kas.",
+        "Memproses penggajian untuk 50+ karyawan menggunakan MYOB.",
+        "Memelihara catatan aset tetap dan jadwal penyusutan.",
+        "Mendukung proses penutupan akhir bulan dan akhir tahun."
+      ],
+      "skills": ["Bookkeeping", "MYOB", "Payroll", "Reconciliation"]
+    }
+  ],
+
+  "education": [
+    {
+      "id": "edu-001",
+      "institutionEn": "University of Indonesia",
+      "institutionId": "Universitas Indonesia",
+      "degreeEn": "Bachelor of Economics (Accounting)",
+      "degreeId": "Sarjana Ekonomi (Akuntansi)",
+      "periodEn": "2016 — 2020",
+      "periodId": "2016 — 2020",
+      "gpa": "3.72",
+      "descEn": "Focused on financial accounting, auditing, and taxation.",
+      "descId": "Berfokus pada akuntansi keuangan, audit, dan perpajakan."
+    }
+  ],
+
+  "certifications": [
+    {
+      "id": "cert-001",
+      "nameEn": "Brevet A & B Tax Certificate",
+      "nameId": "Sertifikat Pajak Brevet A & B",
+      "issuerEn": "Indonesian Tax Institute",
+      "issuerId": "Ikatan Konsultan Pajak Indonesia",
+      "year": "2021",
+      "icon": "fa-certificate"
+    },
+    {
+      "id": "cert-002",
+      "nameEn": "Certified Accounting Technician (CAT)",
+      "nameId": "Teknisi Akuntansi Bersertifikat",
+      "issuerEn": "IAI — Institute of Indonesia Chartered Accountants",
+      "issuerId": "IAI — Ikatan Akuntan Indonesia",
+      "year": "2020",
+      "icon": "fa-award"
+    },
+    {
+      "id": "cert-003",
+      "nameEn": "e-Faktur & e-SPT Certified User",
+      "nameId": "Pengguna Bersertifikat e-Faktur & e-SPT",
+      "issuerEn": "Directorate General of Taxes",
+      "issuerId": "Direktorat Jenderal Pajak",
+      "year": "2021",
+      "icon": "fa-file-invoice"
+    },
+    {
+      "id": "cert-004",
+      "nameEn": "Microsoft Excel Advanced",
+      "nameId": "Microsoft Excel Tingkat Lanjut",
+      "issuerEn": "Microsoft",
+      "issuerId": "Microsoft",
+      "year": "2022",
+      "icon": "fa-file-excel"
+    },
+    {
+      "id": "cert-005",
+      "nameEn": "Financial Modeling & Valuation",
+      "nameId": "Pemodelan & Valuasi Keuangan",
+      "issuerEn": "CFI — Corporate Finance Institute",
+      "issuerId": "CFI — Corporate Finance Institute",
+      "year": "2023",
+      "icon": "fa-chart-line"
+    }
+  ],
+
+  "organization": [
+    {
+      "id": "org-001",
+      "nameEn": "Student Executive Board — Faculty of Economics",
+      "nameId": "Badan Eksekutif Mahasiswa — Fakultas Ekonomi",
+      "roleEn": "Head of Finance Division",
+      "roleId": "Ketua Divisi Keuangan",
+      "periodEn": "2018 — 2019",
+      "periodId": "2018 — 2019",
+      "descEn": "Managed faculty organization budget and financial reporting.",
+      "descId": "Mengelola anggaran organisasi fakultas dan pelaporan keuangan."
+    },
+    {
+      "id": "org-002",
+      "nameEn": "Accounting Study Group",
+      "nameId": "Kelompok Studi Akuntansi",
+      "roleEn": "Coordinator",
+      "roleId": "Koordinator",
+      "periodEn": "2017 — 2018",
+      "periodId": "2017 — 2018",
+      "descEn": "Organized weekly study sessions and academic competitions.",
+      "descId": "Mengorganisir sesi belajar mingguan dan kompetisi akademik."
+    }
+  ],
+
+  "achievements": [
+    {
+      "id": "ach-001",
+      "titleEn": "Best Graduate — Faculty of Economics",
+      "titleId": "Lulusan Terbaik — Fakultas Ekonomi",
+      "year": "2020",
+      "icon": "fa-trophy",
+      "color": "yellow"
+    },
+    {
+      "id": "ach-002",
+      "titleEn": "1st Place — National Accounting Competition",
+      "titleId": "Juara 1 — Kompetisi Akuntansi Nasional",
+      "year": "2019",
+      "icon": "fa-medal",
+      "color": "yellow"
+    },
+    {
+      "id": "ach-003",
+      "titleEn": "Dean's List — 6 Consecutive Semesters",
+      "titleId": "Daftar Dekan — 6 Semester Berturut-turut",
+      "year": "2017-2020",
+      "icon": "fa-star",
+      "color": "blue"
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>News — Wafa Abbas</title>
+  <meta name="description" content="Latest news, achievements, and updates about Wafa Abbas." />
+
+  <!-- Favicon -->
+  <link rel="icon" href="/assets/img/icons/favicon.ico" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/tokens.css" />
+  <link rel="stylesheet" href="/assets/css/base.css" />
+  <link rel="stylesheet" href="/assets/css/components/navbar.css" />
+  <link rel="stylesheet" href="/assets/css/components/footer.css" />
+  <link rel="stylesheet" href="/assets/css/components/card.css" />
+  <link rel="stylesheet" href="/assets/css/components/badge.css" />
+  <link rel="stylesheet" href="/assets/css/components/button.css" />
+  <link rel="stylesheet" href="/assets/css/components/pagination.css" />
+  <link rel="stylesheet" href="/assets/css/pages/news.css" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+
+  <!-- ── Navbar ─────────────────────────────────────────────── -->
+  <nav class="navbar" id="navbar">
+    <div class="container navbar__inner">
+
+      <!-- Logo -->
+      <a href="/index.html" class="navbar__logo">
+        <span class="navbar__logo-text">Wafa<span>Abbas</span></span>
+      </a>
+
+      <!-- Desktop Nav -->
+      <ul class="navbar__links">
+        <li><a href="/index.html"    class="nav-link" data-nav-link="home"
+          data-en="Home" data-id="Beranda">Home</a></li>
+        <li><a href="/about.html"    class="nav-link" data-nav-link="about"
+          data-en="About" data-id="Tentang">About</a></li>
+        <li><a href="/articles.html" class="nav-link" data-nav-link="articles"
+          data-en="Articles" data-id="Artikel">Articles</a></li>
+        <li><a href="/opinions.html" class="nav-link" data-nav-link="opinions"
+          data-en="Opinions" data-id="Opini">Opinions</a></li>
+        <li><a href="/news.html"     class="nav-link active" data-nav-link="news"
+          data-en="News" data-id="Berita">News</a></li>
+      </ul>
+
+      <!-- Right Controls -->
+      <div class="navbar__controls">
+        <a href="/search.html" class="navbar__search-btn" aria-label="Search">
+          <i class="fa fa-search"></i>
+        </a>
+        <div class="lang-switch">
+          <button class="lang-btn active" data-lang="en">EN</button>
+          <span class="lang-switch__divider">|</span>
+          <button class="lang-btn" data-lang="id">ID</button>
+        </div>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+      <ul class="mobile-menu__links">
+        <li><a href="/index.html"    class="nav-link" data-nav-link="home"
+          data-en="Home" data-id="Beranda">Home</a></li>
+        <li><a href="/about.html"    class="nav-link" data-nav-link="about"
+          data-en="About" data-id="Tentang">About</a></li>
+        <li><a href="/articles.html" class="nav-link" data-nav-link="articles"
+          data-en="Articles" data-id="Artikel">Articles</a></li>
+        <li><a href="/opinions.html" class="nav-link" data-nav-link="opinions"
+          data-en="Opinions" data-id="Opini">Opinions</a></li>
+        <li><a href="/news.html"     class="nav-link active" data-nav-link="news"
+          data-en="News" data-id="Berita">News</a></li>
+      </ul>
+      <div class="mobile-menu__lang">
+        <button class="lang-btn active" data-lang="en">EN</button>
+        <span>|</span>
+        <button class="lang-btn" data-lang="id">ID</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ── Page Header ────────────────────────────────────────── -->
+  <header class="page-header">
+    <div class="page-header__bg"></div>
+    <div class="container page-header__inner">
+      <p class="page-header__label">
+        <span data-en="Latest Updates" data-id="Pembaruan Terkini">Latest Updates</span>
+      </p>
+      <h1 class="page-header__title">
+        <span data-en="News &" data-id="Berita &">News &</span>
+        <span class="accent"> <span data-en="Highlights" data-id="Sorotan">Highlights</span></span>
+      </h1>
+      <p class="page-header__desc"
+        data-en="Stay updated with my latest achievements, career milestones, and professional highlights."
+        data-id="Tetap update dengan pencapaian, milestone karir, dan sorotan profesional terbaru saya.">
+        Stay updated with my latest achievements, career milestones, and professional highlights.
+      </p>
+    </div>
+  </header>
+
+  <!-- ── Main Content ───────────────────────────────────────── -->
+  <main class="section">
+    <div class="container">
+
+      <!-- Filter Bar -->
+      <div class="filter-bar" id="filter-bar">
+        <span class="filter-bar__label"
+          data-en="Filter:" data-id="Filter:">Filter:</span>
+        <!-- JS renders filter buttons -->
+      </div>
+
+      <!-- Sort + Count Row -->
+      <div class="list-controls">
+        <p class="list-controls__count" id="news-count"></p>
+        <div class="list-controls__sort">
+          <label for="sort-select"
+            data-en="Sort:" data-id="Urutkan:">Sort:</label>
+          <select id="sort-select" class="sort-select">
+            <option value="newest" data-en="Newest" data-id="Terbaru">Newest</option>
+            <option value="oldest" data-en="Oldest" data-id="Terlama">Oldest</option>
+            <option value="a-z"    data-en="A–Z"    data-id="A–Z">A–Z</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- News Grid -->
+      <div class="cards-grid" id="news-grid">
+        <!-- JS renders news cards -->
+      </div>
+
+      <!-- Pagination -->
+      <div id="news-pagination"></div>
+
+    </div>
+  </main>
+
+  <!-- ── Footer ─────────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a href="/index.html" class="footer__logo">
+            Wafa<span>Abbas</span>
+          </a>
+          <p class="footer__tagline"
+            data-en="Finance, Tax & Accounting Specialist"
+            data-id="Spesialis Keuangan, Pajak & Akuntansi">
+            Finance, Tax & Accounting Specialist
+          </p>
+        </div>
+        <div class="footer__links">
+          <h4 data-en="Navigation" data-id="Navigasi">Navigation</h4>
+          <ul>
+            <li><a href="/index.html"    data-en="Home"     data-id="Beranda">Home</a></li>
+            <li><a href="/about.html"    data-en="About"    data-id="Tentang">About</a></li>
+            <li><a href="/articles.html" data-en="Articles" data-id="Artikel">Articles</a></li>
+            <li><a href="/opinions.html" data-en="Opinions" data-id="Opini">Opinions</a></li>
+            <li><a href="/news.html"     data-en="News"     data-id="Berita">News</a></li>
+          </ul>
+        </div>
+        <div class="footer__contact">
+          <h4 data-en="Contact" data-id="Kontak">Contact</h4>
+          <ul>
+            <li>
+              <i class="fa fa-envelope"></i>
+              <a href="mailto:alfaqihabbas@gmail.com">alfaqihabbas@gmail.com</a>
+            </li>
+            <li>
+              <i class="fa fa-phone"></i>
+              <a href="tel:+6282330610780">+62 823 3061 0780</a>
+            </li>
+            <li>
+              <i class="fa-brands fa-whatsapp"></i>
+              <a href="https://wa.me/6282330610780" target="_blank">WhatsApp</a>
+            </li>
+            <li>
+              <i class="fa-brands fa-linkedin"></i>
+              <a href="https://linkedin.com/in/wafaabbs/" target="_blank">LinkedIn</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>
+          &copy; <span class="footer-year"></span>
+          <span data-en="Wafa Abbas. All rights reserved."
+                data-id="Wafa Abbas. Hak cipta dilindungi.">
+            Wafa Abbas. All rights reserved.
+          </span>
+        </p>
+        <a href="/search.html" class="footer__search"
+          data-en="Search" data-id="Cari">Search</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ── JS ─────────────────────────────────────────────────── -->
+  <script src="/assets/js/core/config.js"></script>
+  <script src="/assets/js/core/utils.js"></script>
+  <script src="/assets/js/core/fetch.js"></script>
+  <script src="/assets/js/core/render.js"></script>
+  <script src="/assets/js/core/router.js"></script>
+  <script src="/assets/js/components/navbar.js"></script>
+  <script src="/assets/js/components/footer.js"></script>
+  <script src="/assets/js/components/card.js"></script>
+  <script src="/assets/js/pages/news.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      Navbar.init();
+      Footer.init();
+      NewsPage.init();
+    });
+  </script>
+
+</body>
+</html>
